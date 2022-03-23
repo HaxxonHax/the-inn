@@ -2,16 +2,17 @@
  * Shuffles the global consumables deck (e.g. Inn Drink Deck).
  */
 
-const gameName = "Tavern"
+const gameName = "The Inn"
 const mainDeckBaseName = 'Main';
 const drinkDeckBaseName = 'Drink';
 const discardDeckSuffix = 'Discard';
 const deckSuffix = 'Deck';
 
 const macroToCall = "Shuffle Deck"
-const deckToShuffle = `${gameName} ${drinkDeckBaseName} ${deckSuffix}`;
 
 if (actor) {
+  const deckToShuffle = `${gameName} ${drinkDeckBaseName} ${deckSuffix}`;
+  const discardDeckName = `${gameName} ${drinkDeckBaseName} ${discardDeckSuffix}`;
   let calledMacro = game.macros.getName(macroToCall);
   if (calledMacro) {
     calledMacro.execute(deckToShuffle, true);
@@ -21,8 +22,8 @@ if (actor) {
       content: `<div>${actor.name} shuffled ${deckToShuffle}.</div>`,
     });
   } else {
-    console.log(`ERROR: No macro named ${macroToCall} found!`);
+    console.log(`[${gameName}] ERROR: No macro named ${macroToCall} found!`);
   }
 } else {
-  console.log("Attempt to call macro with no actor!");
+  console.log(`[${gameName}] Attempt to call macro with no actor!`);
 }
