@@ -12,19 +12,17 @@ None of the decks will use the "Deck" type of card stack.  The "Deck" type works
 - Main Discard (per character)
 - Drink Discard (per character)
 
-The Hands for each player will utilize the "Hand" type of card stacks.
+The Hands for each player will utilize the "Hand" type of card stacks.  For simplicity, this implementation does not utilize any flipping of the cards.  The flipping of the cards only affects the image and not the cards When creating the decks, ensure all the faces are up.
 
 # Decks and Ownership
 
-Ownership per character is outlined as such:
+The default ownership should be set to "none", with the exception of the Inn Drink Deck, which should be "limited" for all players.  Ownership per character is outlined as such:
 
-  - Inn Drink Deck - Observer
-  - Main Deck (per character) - Observer
-  - Drink Deck (per character) - Observer
+  - Inn Drink Deck - Limited
+  - Main Deck (per character) - Limited
+  - Drink Deck (per character) - Limited
   - Main Discard (per character) - Owner
   - Drink Discard (per character) - Owner
-
-Allowing the ownership of "Observer" gives each player the ability to shuffle the decks.  This will require the Deck piles (not Discards or Hand) to be face-down and any "draw" or "play" routines to flip the card face-up.
 
 # Setup
 
@@ -40,7 +38,7 @@ Create the following Macros (folder structure is optional, but helps to keep org
    - - Shuffle Drinks: consumables/shuffleDrinks.js
    - - Take A Drink: consumables/takeADrink.js
    - lib (Folder)
-   - - Deal Card As Actor: lib/dealCardAsActor.js
+   - - Resolve Take A Drink: lib/resolveTakeADrink.js
    - - Shuffle Deck: lib/shuffleDeck.js
    - - Update Tile Image: lib/updatePlayTile.js
    - init (Folder)
