@@ -23,16 +23,5 @@ if (actor) {
   }
 
   const playMacro = game.macros.getName("Resolve Take A Drink");
-  const cardPlayed = await playMacro.execute(actor.name, game.user.id);
-  console.log(cardPlayed);
-  const drinkDiscard = game.cards.getName(drinkDiscardName);
-  const drinkDiscardCount = drinkDiscard.data.cards.contents.length;
-  if (drinkDiscardCount > 0) {
-    const topCard = drinkDiscard.data.cards.contents[drinkDiscardCount - 1];
-    console.log(topCard);
-    const cardImg = topCard.img;
-    console.log(cardImg);
-    const calledMacro = game.macros.getName("Update Tile Image");
-    calledMacro.execute(cardImg,"Drink",actor.name);
-  }
+  await playMacro.execute(actor.name, game.user.id);
 }
