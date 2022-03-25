@@ -33,13 +33,17 @@ Create the following Macros (folder structure is optional, but helps to keep org
    - - Draw Cards: character/drawACard.js
    - - Play A Card: character/playACard.js
    - - Shuffle Character Deck: character/shuffleCharacterDeck.js
+   - - View My Cards: character/viewMyCards.js
    - consumables (Folder)
    - - Buy A Drink: consumables/buyADrink.js
    - - Shuffle Drinks: consumables/shuffleDrinks.js
    - - Take A Drink: consumables/takeADrink.js
-   - lib (Folder)
-   - - Resolve Take A Drink: lib/resolveTakeADrink.js
-   - - Shuffle Deck: lib/shuffleDeck.js
-   - - Update Tile Image: lib/updatePlayTile.js
    - init (Folder)
    - - Create Game Decks: init/createGameDecks.js
+   - lib (Folder)
+   - - Collect Discards: lib/collectDiscards.js
+   - - Deal Card As Actor: lib/dealCardAsActor.js
+   - - Resolve Take A Drink: lib/resolveTakeADrink.js
+   - - Shuffle Deck: lib/shuffleDeck.js
+   - - Update Tile Image: lib/updateTileImage.js
+
