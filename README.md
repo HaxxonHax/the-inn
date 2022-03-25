@@ -45,5 +45,6 @@ Create the following Macros (folder structure is optional, but helps to keep org
    - - Deal Card As Actor: lib/dealCardAsActor.js
    - - Resolve Take A Drink: lib/resolveTakeADrink.js
    - - Shuffle Deck: lib/shuffleDeck.js
+   - - Update Actor Stat: lib/updateActorStat.js
    - - Update Tile Image: lib/updateTileImage.js
 
