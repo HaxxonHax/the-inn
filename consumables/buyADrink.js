@@ -2,6 +2,10 @@
  * Transfers the top card of the global drink pile to the actor's personal drink pile.
  * @param {string}      globalDrinkDeckName   The name of the global drink pile to draw from.
  */
+// buyADrink()
+// Macro Name: Buy A Drink
+// Run As GM: false
+// Has Widget: true
 
 const gameName = "The Inn"
 const mainDeckBaseName = 'Main';
@@ -9,7 +13,7 @@ const drinkDeckBaseName = 'Drink';
 const discardDeckSuffix = 'Discard';
 const deckSuffix = 'Deck';
 
-console.log(`[${gameName}] Buying a Drink`);
+console.log(`${gameName} | Buy a Drink`);
 
 // Only do something if there's an actor clicking.
 if (actor) {

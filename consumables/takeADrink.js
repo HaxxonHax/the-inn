@@ -3,6 +3,10 @@
  * @param {string}      personalDrinkDeckName   (Optional) The name of the actor's drink pile to draw from.
  * @param {string}      personalDrinkDeckName   (Optional) The name of the actor's discard pile to send to.
  */
+// takeADrink()
+// Macro Name: Take A Drink
+// Run As GM: false
+// Has Widget: true
 
 const gameName = "The Inn"
 const mainDeckBaseName = 'Main';
@@ -10,7 +14,7 @@ const drinkDeckBaseName = 'Drink';
 const discardDeckSuffix = 'Discard';
 const deckSuffix = 'Deck';
 
-console.log(`[${gameName}] Taking a Drink`);
+console.log(`${gameName} | Take a Drink`);
 
 
 // Only do something if there's an actor clicking.

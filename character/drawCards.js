@@ -1,7 +1,7 @@
 /**
  * Draw Cards from the Character's Main Deck.
  */
-
+// drawCards()
 // Macro Name: Draw Cards
 // Run As GM: false
 // Has Widget: true
@@ -13,7 +13,7 @@ const discardDeckSuffix = 'Discard';
 const deckSuffix = 'Deck';
 const handSuffix = 'Hand';
 
-console.log(`${gameName} | Drawing Cards`);
+console.log(`${gameName} | Draw Cards`);
 
 
 if (actor) {

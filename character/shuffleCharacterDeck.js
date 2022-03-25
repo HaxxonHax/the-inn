@@ -8,7 +8,9 @@ const drinkDeckBaseName = 'Drink';
 const discardDeckSuffix = 'Discard';
 const deckSuffix = 'Deck';
 
-const macroToCall = "Shuffle Deck"
+const macroToCall = "Shuffle Deck";
+
+console.log(`${gameName} | Shuffle Deck`)
 
 if (actor) {
   const deckToShuffle = `${actor.name} ${mainDeckBaseName} ${deckSuffix}`

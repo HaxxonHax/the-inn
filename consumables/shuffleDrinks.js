@@ -15,6 +15,8 @@ const deckSuffix = 'Deck';
 
 const shuffleDeckMacro = "Shuffle Deck";
 
+console.log(`${gameName} | Shuffle Drinks`)
+
 let calledMacro = null;
 
 
