@@ -14,9 +14,11 @@ const gameName = "The Inn";
 
 console.log(`${gameName} | Deal Card As Actor`)
 
-if (args.length > 1) {
-  const statToUpdate = args[0];
-  const amountToUpdateBy = args[1];
-  const statMacro = game.macros.getName("Update Actor Stat");
-  statMacro.execute(amountToUpdateBy,[statToUpdate],actor.name);
+if (actor) {
+  if (args.length > 1) {
+    const statToUpdate = args[0];
+    const amountToUpdateBy = args[1];
+    const statMacro = game.macros.getName("Update Actor Stat");
+    statMacro.execute(amountToUpdateBy,statToUpdate,actor.name);
+  }
 }
