@@ -2,6 +2,7 @@
  * Updates the given stat for an actor.  Calls the "Update Actor Stat" macro.
  * @param {string}      statName          The name of the stat to adjust (e.g. "Fortitude").
  * @param {int}         amountToUpdateBy  The amount to add to the stat.
+ * @param {string}      ownedActor        The actor that should own the stat.
  * @returns Promise          All macros return promise.
  */
 
@@ -16,6 +17,10 @@ console.log(`${gameName} | Deal Card As Actor`)
 
 if (actor) {
   if (args.length > 1) {
+    // Here we support both any actor and named actor checking via parameters.
+    if (args.length > 2) {
+      if (actor.name !== args[2]) return
+    }
     const statToUpdate = args[0];
     const amountToUpdateBy = args[1];
     const statMacro = game.macros.getName("Update Actor Stat");
