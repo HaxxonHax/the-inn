@@ -26,25 +26,28 @@ The default ownership should be set to "none", with the exception of the Inn Dri
 
 # Setup
 
-Create the following Macros (folder structure is optional, but helps to keep organized):
+Create the following Macros, keeping Names as such (folder structure is optional, but helps to keep organized):
 
    The Inn (Folder)
    - character (Folder)
    - - Draw Cards: character/drawACard.js
    - - Play A Card: character/playACard.js
    - - Shuffle Character Deck: character/shuffleCharacterDeck.js
+   - - Update My Stats: character/updateMyStats.js
    - - View My Cards: character/viewMyCards.js
    - consumables (Folder)
    - - Buy A Drink: consumables/buyADrink.js
    - - Shuffle Drinks: consumables/shuffleDrinks.js
    - - Take A Drink: consumables/takeADrink.js
+   - gold (Folder)
+   - - Pay Gold: gold/payGold.js
    - init (Folder)
    - - Create Game Decks: init/createGameDecks.js
    - lib (Folder)
    - - Collect Discards: lib/collectDiscards.js
    - - Deal Card As Actor: lib/dealCardAsActor.js
+   - - Resolve Pay Gold: lib/resolvePayGold.js
    - - Resolve Take A Drink: lib/resolveTakeADrink.js
    - - Shuffle Deck: lib/shuffleDeck.js
    - - Update Actor Stat: lib/updateActorStat.js
    - - Update Tile Image: lib/updateTileImage.js
-
