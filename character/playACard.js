@@ -39,7 +39,7 @@ if (actor) {
   let passTo = game.cards.getName(actorMainDiscardName);
   let dialogContent = "";
   let dialogContentHead = `
-      <div>For whom would you like to buy a drink?</div>
+      <div>Play which card?</div>
       <form>
         <div class="form-group">
           <select id="selected-card" name="selected-card">`;
