@@ -2,8 +2,8 @@
  * Transfers the top card of the global drink pile to the actor's personal drink pile.
  * @param {string}      globalDrinkDeckName   The name of the global drink pile to draw from.
  */
-// buyADrink()
-// Macro Name: Buy A Drink
+// orderADrink()
+// Macro Name: Order A Drink
 // Run As GM: false
 // Has Widget: true
 
@@ -13,7 +13,7 @@ const drinkDeckBaseName = 'Drink';
 const discardDeckSuffix = 'Discard';
 const deckSuffix = 'Deck';
 
-console.log(`${gameName} | Buy a Drink`);
+console.log(`${gameName} | Order a Drink`);
 
 // Only do something if there's an actor clicking.
 if (actor) {
@@ -22,7 +22,7 @@ if (actor) {
   let targetedPlayerDrinkDeckName = "";
   let dialogContent = "";
   let dialogContentHead = `
-      <div>For whom would you like to buy a drink?</div>
+      <div>For whom would you like to order a drink?</div>
       <form>
         <div class="form-group">
           <select id="selected-actor" name="selected-actor">`;
@@ -47,12 +47,12 @@ if (actor) {
   });
   dialogContent = dialogContentHead + dialogOptions + dailogContentFooter;
   new Dialog({
-    title: "Buy a Drink",
+    title: "Order a Drink",
     content: dialogContent,
     buttons: {
       play: {
         icon: "<i class='fas fa-check'></i>",
-        label: `Buy a Drink!`,
+        label: `Order a Drink!`,
         callback: () => applyChanges = true
       },
       cancel: {

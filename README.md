@@ -36,7 +36,7 @@ Create the following Macros, keeping Names as such (folder structure is optional
    - - Update My Stats: character/updateMyStats.js
    - - View My Cards: character/viewMyCards.js
    - consumables (Folder)
-   - - Buy A Drink: consumables/buyADrink.js
+   - - Order A Drink: consumables/orderADrink.js
    - - Shuffle Drinks: consumables/shuffleDrinks.js
    - - Take A Drink: consumables/takeADrink.js
    - gold (Folder)
