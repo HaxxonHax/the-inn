@@ -19,13 +19,25 @@ console.log(`${gameName} | Draw Cards`);
 if (actor) {
   const handName = `${actor.name} ${handSuffix}`;
   const deckName = `${actor.name} ${mainDeckBaseName} ${deckSuffix}`;
+  const discardName = `${actor.name} ${mainDeckBaseName} ${discardDeckSuffix}`;
 
   let applyChanges=false;
+  let dialogContent = "";
+  let dialogContentHead = `
+      <div>Select Cards to Discard:</div>
+      <form>`;
+  let dialogOptions = "";
+  let dailogContentFooter = `</form>`;
 
-  new Dialog({
-    title: `Draw Cards`,
-    content: `
-      <form>
+  let hand = game.cards.getName(handName);
+  hand.data.cards.forEach(function(element) { 
+    dialogOptions = dialogOptions + `
+      <div class="form-group">
+      <input type="checkbox" value="${element.data._id}">${element.data.name}</input>
+      </div>`;
+  });
+
+  dialogOptions = dialogOptions + `
         <div class="form-group">
           Draw How many cards: 
           <select id="select-type" name="select-type">
@@ -37,9 +49,12 @@ if (actor) {
               <option value="6">6</option>
               <option value="7">7</option>
           </select>
-        </div>
-      </form>
-      `,
+        </div>`;
+  dialogContent = dialogContentHead + dialogOptions + dailogContentFooter;
+
+  new Dialog({
+    title: `Draw Cards`,
+    content: dialogContent,
     buttons: {
       yes: {
         icon: "<i class='fas fa-check'></i>",
@@ -55,6 +70,10 @@ if (actor) {
     close: html => {
         if (applyChanges) {
           let nCardsToDraw = html.find('[name="select-type"]')[0].value || null;
+          let cardsToDiscard = $('input[type=checkbox]:checked').map((i, el) => el.value).get();
+          //let cardsToDiscard = html.find('[name="selected-card"]')[0].value || null;
+          const discardCardMacro = game.macros.getName("Discard Cards As Actor");
+          discardCardMacro.execute(handName, discardName, cardsToDiscard, actor.name);
           const dealCardMacro = game.macros.getName("Deal Card As Actor");
           dealCardMacro.execute(deckName,
                                 handName,
