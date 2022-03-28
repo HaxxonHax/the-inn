@@ -38,12 +38,12 @@ if (actor) {
 
   let globalDrinkDeck = game.cards.getName(globalDrinkDeckName);
   const sceneId = game.scenes.active.id;
-  const userIds = game.users
-          .filter(u => u.viewedScene === sceneId && typeof u.character !== 'undefined' && typeof u.character.name !== 'undefined')
-          .map(u => u.character.name);
+  const userIds = game.users.players.filter(u=> u.active===true && typeof u.character !== 'undefined')
+          .filter(u=> typeof u.character.name !== 'undefined')
+          .map(u=>u.character.name);
 
   userIds.forEach(function(element) { 
-    dialogOptions = dialogOptions + '<option value="' + element + '">' + element + "</option>";
+    dialogOptions = dialogOptions + `<option value="${element}">${element}</option>`;
   });
   dialogContent = dialogContentHead + dialogOptions + dailogContentFooter;
   new Dialog({

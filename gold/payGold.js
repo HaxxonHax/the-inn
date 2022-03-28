@@ -45,9 +45,11 @@ if (actor) {
         </div>
       </form>`;
 
-  const ownedActors = game.actors.filter(d=>d.hasPlayerOwner === true);  // add is online here.
+  const ownedActors = game.users.players.filter(u=> u.active===true && typeof u.character !== 'undefined')
+          .filter(u=> typeof u.character.name !== 'undefined')
+          .map(u=>u.character.name);
   ownedActors.forEach(function(element) { 
-    dialogOptions = dialogOptions + `<option value="${element.data.name}">${element.data.name}</option>`;
+    dialogOptions = dialogOptions + `<option value="${element}">${element}</option>`;
   });
 
   dialogContent = dialogContentHead + dialogOptions + dailogContentFooter;
