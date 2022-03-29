@@ -13,7 +13,7 @@
 
 const gameName = "The Inn";
 
-console.log(`${gameName} | Deal Card As Actor`)
+console.log(`${gameName} | Update My Stat`)
 
 if (actor) {
   if (args.length > 1) {
