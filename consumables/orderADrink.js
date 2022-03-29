@@ -72,7 +72,7 @@ if (actor) {
                                       targetedPlayerDrinkDeckName,
                                       actor.name + " bought a drink for " + selectedActor,
                                       actor.name,
-                                      game.user.id);
+                                      true);
               }
           }
       }
