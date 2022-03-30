@@ -95,28 +95,45 @@ Once the initial setup is created, you will need to transfer the files in the `T
 12. Play the game.
 
 
-# Importing from Steam Workshop
+# Importing Decks
 
-Hypothetically, you could import some cards from a similar game on Tabletop Simulator Workshop, but you'd have to know which json file to parse.  You also would need to know which nth item of ObjectStates maps to each character.  For example, I found one called 648233037 and used `jq` to create a new object.
+The JSON files in the `Cards` directory can be imported to bring in the decks.  Currently, the JSON files include the text and values needed to play the game, but not the images.  Due to copyright restrictions, I am unable to provide the images for the characters, so you will have to find some online or scan/import your own.  I did ask Slugfest games for permission to include the games, but they replied (expectedly) that "cannot grant permission to publicly post images of our Red Dragon Inn decks on GitHub".  I'm currently having private discussions with my friends on Discord about the best way to resolve this.
+
+
+# How to Play
+
+I'm not including the rules here.  I'm a big encourager of supporting game creators, so you can purchase the game from [Slugfest Games](https://slugfestgames.com/).
+
+
+# Importing Other Decks from Steam Workshop
+
+Hypothetically, you could import cards from games on Tabletop Simulator Workshop, but you'd have to know which json file to parse.  You also would need to know which nth item of ObjectStates maps to each character.  For example, I found one called 648233037 and used `jq` to create a new object.
 
 If you wanted to play that game, it takes a lot of work.  Hypothetically, one would do the following:
 
 1. Purchase the base game from [Slugfest Games](https://slugfestgames.com/).
 2. Purchase any additional game expansions from [Slugfest Games](https://slugfestgames.com/).
-3. [Buy me a Coffee](https://www.buymeacoffee.com/haxxonhax) (all proceeds get donated to [CMTA USA](https://www.cmtausa.org/); you could alternatively donate directly to [CMTA USA](https://www.cmtausa.org/))
-4. Purchase a T-Shirt from [Slugfest Games](https://slugfestgames.com/merch/).
-5. Find the json object in your Workshops folder.
-6. [Install JQ](https://stedolan.github.io/jq/download/).
-7. Use a JSON parser to map the `n`th object in the `.Objectstates[n]` to the deck whose item you want (e.g. `.ObjectStates[10]` -> **Wulf the Glorious** [disclaimer: Wulf is not real])
-8. Use JQ to parse the data into a JSON that can be imported into Foundry VTT:
+3. Purchase Tabletop Simlator and subscribe to the game on the Workshop.
+3. Find the json object in your Workshops folder.
+4. Use a JSON parser to map the `n`th object in the `.Objectstates[n]` to the deck whose item you want (e.g. `.ObjectStates[10]` -> **Wulf the Glorious** [disclaimer: Wulf is not real])
+
+For example, I [Installed JQ](https://stedolan.github.io/jq/download/), then used JQ to parse the data into a JSON that can be imported into Foundry VTT:
 ```
-cat 648233037.json | jq '.ObjectStates[3].ContainedObjects[0].ContainedObjects[] | { "name": .Nickname, "type": .Description, "description": .Nickname, "data": {}, "suit": "", "value": .Value, "back": { "name": "Dimli the Dwarf", "text": "Dimli the Dwarf", "image": "Cards/base/deirdre/dimli-the-dwarf-back.png" }, "faces": [{ "name": .Nickname, "img": ("Cards/base/dimli/" + (.Nickname | ascii_downcase | gsub("[^[:alnum:][:space:]]";"") | gsub(" ";"-") | gsub("$";".png") )), "text": "" }], "face":0, "drawn": false, "width": 2, "height": 3, "rotation": 0, "flags": {} }' | jq -s .
+cat 648233037.json | jq '.ObjectStates[3].ContainedObjects[0].ContainedObjects[] | { "name": .Nickname, "type": .Description, "description": .Nickname, "data": {}, "suit": "", "value": .Value, "back": { "name": "Dimli the Dwarf", "text": "Dimli the Dwarf", "image": "Cards/base/dimli/dimli-the-dwarf-back.png" }, "faces": [{ "name": .Nickname, "img": ("Cards/base/dimli/" + (.Nickname | ascii_downcase | gsub("[^[:alnum:][:space:]]";"") | gsub(" ";"-") | gsub("$";".png") )), "text": "" }], "face":0, "drawn": false, "width": 2, "height": 3, "rotation": 0, "flags": {} }' | jq -s .
 
 cat 648233037.json | jq '.ObjectStates[11].ContainedObjects[0].ContainedObjects[] | { "name": .Nickname, "type": "base", "description": .Nickname, "data": { "type": .Description }, "suit": "", "value": .Value, "back": { "name": "Zot the Wizard", "text": "Zot the Wizard", "image": "Cards/base/zot/zot-the-wizard-back.png" }, "faces": [{ "name": .Nickname, "img": ("Cards/base/zot/" + (.Nickname | ascii_downcase | gsub("[^[:alnum:][:space:]]";"") | gsub(" ";"-") | gsub("$";".png") )), "text": "" }], "face":0, "drawn": false, "width": 2, "height": 3, "rotation": 0, "flags": {} }' | jq -s . | jq '{ "name": "Zot the Wizard", "type": "pile", "description": "", "img": "Cards/base/zot/zot-the-wizard-back.png", "data": {}, "cards": . }'
 ```
-9. Purchase more stuff from [Slugfest Games](https://slugfestgames.com/merch/).
+
+5. Purchase merch from [Slugfest Games](https://slugfestgames.com/merch/).
 
 
 # Notes
 
 The `createTilesOnScene.js` macro creates the tile buttons and the action configuration for them.  However, I was unable to create the sheets (`ActionConfig` from monks-active-tiles), so modifying them manually is not an option; you would instead have to delete them and re-create them to make them modifiable.
+
+
+# Supporting the author
+
+I did not write Red Dragon Inn, but wrote these libraries and macros that allow the game to be played over Foundry VTT.  If you would like to support the development that I do and would like to see more things like this, you can [Buy me a Coffee](https://www.buymeacoffee.com/haxxonhax), where all money gets donated to [CMTA USA](https://www.cmtausa.org/).  You can also donate directly to [CMTA USA](https://www.cmtausa.org/)).
+
+If you have a request for a game, feel free to reach me on Discord.

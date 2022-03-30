@@ -1,0 +1,1129 @@
+{
+  "name": "Deirdre the Priestess",
+  "type": "pile",
+  "description": "",
+  "img": "Cards/base/deirdre/deirdre-the-priestess-back.png",
+  "data": {},
+  "cards": [
+    {
+      "name": "Gambling? I'm in!",
+      "type": "base",
+      "description": "Gambling? I'm in!",
+      "data": {
+        "type": "Action - Gambling"
+      },
+      "suit": "",
+      "value": 0,
+      "back": {
+        "name": "Deirdre the Priestess",
+        "text": "Deirdre the Priestess",
+        "image": "Cards/base/deirdre/deirdre-the-priestess-back.png"
+      },
+      "faces": [
+        {
+          "name": "Gambling? I'm in!",
+          "img": "Cards/base/deirdre/gambling-im-in.png",
+          "text": "<div class=\"cardtext\">Start a Round of Gambling (Each player, including you, must ante.)</div><div class=\"cardtext\">-OR-</div><div class=\"cardtext\">Take control of a Round of Gambling.</div>"
+        }
+      ],
+      "face": 0,
+      "drawn": false,
+      "width": 2,
+      "height": 3,
+      "rotation": 0,
+      "flags": {}
+    },
+    {
+      "name": "Gambling? I'm in!",
+      "type": "base",
+      "description": "Gambling? I'm in!",
+      "data": {
+        "type": "Action - Gambling"
+      },
+      "suit": "",
+      "value": 0,
+      "back": {
+        "name": "Deirdre the Priestess",
+        "text": "Deirdre the Priestess",
+        "image": "Cards/base/deirdre/deirdre-the-priestess-back.png"
+      },
+      "faces": [
+        {
+          "name": "Gambling? I'm in!",
+          "img": "Cards/base/deirdre/gambling-im-in.png",
+          "text": "<div class=\"cardtext\">Start a Round of Gambling (Each player, including you, must ante.)</div><div class=\"cardtext\">-OR-</div><div class=\"cardtext\">Take control of a Round of Gambling.</div>"
+        }
+      ],
+      "face": 0,
+      "drawn": false,
+      "width": 2,
+      "height": 3,
+      "rotation": 0,
+      "flags": {}
+    },
+    {
+      "name": "Gambling? I'm in!",
+      "type": "base",
+      "description": "Gambling? I'm in!",
+      "data": {
+        "type": "Action - Gambling"
+      },
+      "suit": "",
+      "value": 0,
+      "back": {
+        "name": "Deirdre the Priestess",
+        "text": "Deirdre the Priestess",
+        "image": "Cards/base/deirdre/deirdre-the-priestess-back.png"
+      },
+      "faces": [
+        {
+          "name": "Gambling? I'm in!",
+          "img": "Cards/base/deirdre/gambling-im-in.png",
+          "text": "<div class=\"cardtext\">Start a Round of Gambling (Each player, including you, must ante.)</div><div class=\"cardtext\">-OR-</div><div class=\"cardtext\">Take control of a Round of Gambling.</div>"
+        }
+      ],
+      "face": 0,
+      "drawn": false,
+      "width": 2,
+      "height": 3,
+      "rotation": 0,
+      "flags": {}
+    },
+    {
+      "name": "Gambling? I'm in!",
+      "type": "base",
+      "description": "Gambling? I'm in!",
+      "data": {
+        "type": "Action - Gambling"
+      },
+      "suit": "",
+      "value": 0,
+      "back": {
+        "name": "Deirdre the Priestess",
+        "text": "Deirdre the Priestess",
+        "image": "Cards/base/deirdre/deirdre-the-priestess-back.png"
+      },
+      "faces": [
+        {
+          "name": "Gambling? I'm in!",
+          "img": "Cards/base/deirdre/gambling-im-in.png",
+          "text": "<div class=\"cardtext\">Start a Round of Gambling (Each player, including you, must ante.)</div><div class=\"cardtext\">-OR-</div><div class=\"cardtext\">Take control of a Round of Gambling.</div>"
+        }
+      ],
+      "face": 0,
+      "drawn": false,
+      "width": 2,
+      "height": 3,
+      "rotation": 0,
+      "flags": {}
+    },
+    {
+      "name": "Gambling? I'm in!",
+      "type": "base",
+      "description": "Gambling? I'm in!",
+      "data": {
+        "type": "Action - Gambling"
+      },
+      "suit": "",
+      "value": 0,
+      "back": {
+        "name": "Deirdre the Priestess",
+        "text": "Deirdre the Priestess",
+        "image": "Cards/base/deirdre/deirdre-the-priestess-back.png"
+      },
+      "faces": [
+        {
+          "name": "Gambling? I'm in!",
+          "img": "Cards/base/deirdre/gambling-im-in.png",
+          "text": "<div class=\"cardtext\">Start a Round of Gambling (Each player, including you, must ante.)</div><div class=\"cardtext\">-OR-</div><div class=\"cardtext\">Take control of a Round of Gambling.</div>"
+        }
+      ],
+      "face": 0,
+      "drawn": false,
+      "width": 2,
+      "height": 3,
+      "rotation": 0,
+      "flags": {}
+    },
+    {
+      "name": "Gambling? I'm in!",
+      "type": "base",
+      "description": "Gambling? I'm in!",
+      "data": {
+        "type": "Action - Gambling"
+      },
+      "suit": "",
+      "value": 0,
+      "back": {
+        "name": "Deirdre the Priestess",
+        "text": "Deirdre the Priestess",
+        "image": "Cards/base/deirdre/deirdre-the-priestess-back.png"
+      },
+      "faces": [
+        {
+          "name": "Gambling? I'm in!",
+          "img": "Cards/base/deirdre/gambling-im-in.png",
+          "text": "<div class=\"cardtext\">Start a Round of Gambling (Each player, including you, must ante.)</div><div class=\"cardtext\">-OR-</div><div class=\"cardtext\">Take control of a Round of Gambling.</div>"
+        }
+      ],
+      "face": 0,
+      "drawn": false,
+      "width": 2,
+      "height": 3,
+      "rotation": 0,
+      "flags": {}
+    },
+    {
+      "name": "I raise!",
+      "type": "base",
+      "description": "I raise!",
+      "data": {
+        "type": "Gambling"
+      },
+      "suit": "",
+      "value": 0,
+      "back": {
+        "name": "Deirdre the Priestess",
+        "text": "Deirdre the Priestess",
+        "image": "Cards/base/deirdre/deirdre-the-priestess-back.png"
+      },
+      "faces": [
+        {
+          "name": "I raise!",
+          "img": "Cards/base/deirdre/i-raise.png",
+          "text": "<div class=\"cardtext\">Take control of a Round of Gambling. Each player, including you, must ante again.</div>"
+        }
+      ],
+      "face": 0,
+      "drawn": false,
+      "width": 2,
+      "height": 3,
+      "rotation": 0,
+      "flags": {}
+    },
+    {
+      "name": "I raise!",
+      "type": "base",
+      "description": "I raise!",
+      "data": {
+        "type": "Gambling"
+      },
+      "suit": "",
+      "value": 0,
+      "back": {
+        "name": "Deirdre the Priestess",
+        "text": "Deirdre the Priestess",
+        "image": "Cards/base/deirdre/deirdre-the-priestess-back.png"
+      },
+      "faces": [
+        {
+          "name": "I raise!",
+          "img": "Cards/base/deirdre/i-raise.png",
+          "text": "<div class=\"cardtext\">Take control of a Round of Gambling. Each player, including you, must ante again.</div>"
+        }
+      ],
+      "face": 0,
+      "drawn": false,
+      "width": 2,
+      "height": 3,
+      "rotation": 0,
+      "flags": {}
+    },
+    {
+      "name": "Winning Hand!",
+      "type": "base",
+      "description": "Winning Hand!",
+      "data": {
+        "type": "Gambling"
+      },
+      "suit": "",
+      "value": 0,
+      "back": {
+        "name": "Deirdre the Priestess",
+        "text": "Deirdre the Priestess",
+        "image": "Cards/base/deirdre/deirdre-the-priestess-back.png"
+      },
+      "faces": [
+        {
+          "name": "Winning Hand!",
+          "img": "Cards/base/deirdre/winning-hand.png",
+          "text": "<div class=\"cardtext\">Take control of a Round of Gambling. The next card to take control must be a Cheating Card.</div>"
+        }
+      ],
+      "face": 0,
+      "drawn": false,
+      "width": 2,
+      "height": 3,
+      "rotation": 0,
+      "flags": {}
+    },
+    {
+      "name": "Winning Hand!",
+      "type": "base",
+      "description": "Winning Hand!",
+      "data": {
+        "type": "Gambling"
+      },
+      "suit": "",
+      "value": 0,
+      "back": {
+        "name": "Deirdre the Priestess",
+        "text": "Deirdre the Priestess",
+        "image": "Cards/base/deirdre/deirdre-the-priestess-back.png"
+      },
+      "faces": [
+        {
+          "name": "Winning Hand!",
+          "img": "Cards/base/deirdre/winning-hand.png",
+          "text": "<div class=\"cardtext\">Take control of a Round of Gambling. The next card to take control must be a Cheating Card.</div>"
+        }
+      ],
+      "face": 0,
+      "drawn": false,
+      "width": 2,
+      "height": 3,
+      "rotation": 0,
+      "flags": {}
+    },
+    {
+      "name": "Oh, I guess the Wench thought that was her tip...",
+      "type": "base",
+      "description": "Oh, I guess the Wench thought that was her tip...",
+      "data": {
+        "type": "Sometimes"
+      },
+      "suit": "",
+      "value": 0,
+      "back": {
+        "name": "Deirdre the Priestess",
+        "text": "Deirdre the Priestess",
+        "image": "Cards/base/deirdre/deirdre-the-priestess-back.png"
+      },
+      "faces": [
+        {
+          "name": "Oh, I guess the Wench thought that was her tip...",
+          "img": "Cards/base/deirdre/oh-i-guess-the-wench-thought-that-was-her-tip.png",
+          "text": "<div class=\"cardtext\">You may play this card at any time during a Round of Gambling, even if you have left the Round. You may not play this card if the Round has already ended. You may not play it in response to a card that would make players ante or would rend the Round when it resolves.</div><div class=\"cardtext\">The Round of Gambling ends immediately. All anted Gold goes to the Inn.</div>"
+        }
+      ],
+      "face": 0,
+      "drawn": false,
+      "width": 2,
+      "height": 3,
+      "rotation": 0,
+      "flags": {}
+    },
+    {
+      "name": "They might not know you're cheating, but my Goddess does!",
+      "type": "base",
+      "description": "They might not know you're cheating, but my Goddess does!",
+      "data": {
+        "type": "Sometimes"
+      },
+      "suit": "",
+      "value": 0,
+      "back": {
+        "name": "Deirdre the Priestess",
+        "text": "Deirdre the Priestess",
+        "image": "Cards/base/deirdre/deirdre-the-priestess-back.png"
+      },
+      "faces": [
+        {
+          "name": "They might not know you're cheating, but my Goddess does!",
+          "img": "Cards/base/deirdre/they-might-not-know-you-re-cheating-but-my.png",
+          "text": "<div class=\"cardtext\">You may play this card when another player plays a Cheating Card. You may not play it if you have already left the Round of Gambling.</div><div class=\"cardtext\">Negate the Cheating Card. You win the Round of Gambling.</div>"
+        }
+      ],
+      "face": 0,
+      "drawn": false,
+      "width": 2,
+      "height": 3,
+      "rotation": 0,
+      "flags": {}
+    },
+    {
+      "name": "I'm saving this money for the poor.",
+      "type": "base",
+      "description": "I'm saving this money for the poor.",
+      "data": {
+        "type": "Sometimes"
+      },
+      "suit": "",
+      "value": 0,
+      "back": {
+        "name": "Deirdre the Priestess",
+        "text": "Deirdre the Priestess",
+        "image": "Cards/base/deirdre/deirdre-the-priestess-back.png"
+      },
+      "faces": [
+        {
+          "name": "I'm saving this money for the poor.",
+          "img": "Cards/base/deirdre/im-saving-this-money-for-the-poor.png",
+          "text": "<div class=\"cardtext\">You may play this card when you must ante. Instead of anteing, you leave the Round of Gambling.</div>"
+        }
+      ],
+      "face": 0,
+      "drawn": false,
+      "width": 2,
+      "height": 3,
+      "rotation": 0,
+      "flags": {}
+    },
+    {
+      "name": "Not now! These men are interested in my religion.",
+      "type": "base",
+      "description": "Not now! These men are interested in my religion.",
+      "data": {
+        "type": "Sometimes"
+      },
+      "suit": "",
+      "value": 0,
+      "back": {
+        "name": "Deirdre the Priestess",
+        "text": "Deirdre the Priestess",
+        "image": "Cards/base/deirdre/deirdre-the-priestess-back.png"
+      },
+      "faces": [
+        {
+          "name": "Not now! These men are interested in my religion.",
+          "img": "Cards/base/deirdre/not-now-these-men-are-interested-in-my-religion.png",
+          "text": "<div class=\"cardtext\">You may play this card when you must ante. Instead of anteing, you leave the Round of Gambling.</div><div class=\"cardtext\">-OR-</div><div class=\"cardtext\">Ignore a Drink. (Reveal the Drink first!)</div>"
+        }
+      ],
+      "face": 0,
+      "drawn": false,
+      "width": 2,
+      "height": 3,
+      "rotation": 0,
+      "flags": {}
+    },
+    {
+      "name": "Sorry, I have to pray now...",
+      "type": "base",
+      "description": "Sorry, I have to pray now...",
+      "data": {
+        "type": "Sometimes"
+      },
+      "suit": "",
+      "value": 0,
+      "back": {
+        "name": "Deirdre the Priestess",
+        "text": "Deirdre the Priestess",
+        "image": "Cards/base/deirdre/deirdre-the-priestess-back.png"
+      },
+      "faces": [
+        {
+          "name": "Sorry, I have to pray now...",
+          "img": "Cards/base/deirdre/sorry-i-have-to-pray-now.png",
+          "text": "<div class=\"cardtext\">You may play this card when you must ante. Instead of anteing, you leave the Round of Gambling.</div>"
+        }
+      ],
+      "face": 0,
+      "drawn": false,
+      "width": 2,
+      "height": 3,
+      "rotation": 0,
+      "flags": {}
+    },
+    {
+      "name": "You look like you need this more than I do!",
+      "type": "base",
+      "description": "You look like you need this more than I do!",
+      "data": {
+        "type": "Sometimes"
+      },
+      "suit": "",
+      "value": 0,
+      "back": {
+        "name": "Deirdre the Priestess",
+        "text": "Deirdre the Priestess",
+        "image": "Cards/base/deirdre/deirdre-the-priestess-back.png"
+      },
+      "faces": [
+        {
+          "name": "You look like you need this more than I do!",
+          "img": "Cards/base/deirdre/you-look-like-you-need-this-more-than-i-do.png",
+          "text": "<div class=\"cardtext\">Give a Drink you are about to drink to another player.</div><div class=\"cardtext\">(Reveal the Drink first!)</div>"
+        }
+      ],
+      "face": 0,
+      "drawn": false,
+      "width": 2,
+      "height": 3,
+      "rotation": 0,
+      "flags": {}
+    },
+    {
+      "name": "Wine into Water",
+      "type": "base",
+      "description": "Wine into Water",
+      "data": {
+        "type": "Sometimes"
+      },
+      "suit": "",
+      "value": 0,
+      "back": {
+        "name": "Deirdre the Priestess",
+        "text": "Deirdre the Priestess",
+        "image": "Cards/base/deirdre/deirdre-the-priestess-back.png"
+      },
+      "faces": [
+        {
+          "name": "Wine into Water",
+          "img": "Cards/base/deirdre/wine-into-water.png",
+          "text": "<div class=\"cardtext\">Reduce the Alcohol Content of a Drink by 2.</div><div class=\"cardtext\">(A Drink's Alcohol Content can't be reduced below 0. Reveal the Drink first!)</div>"
+        }
+      ],
+      "face": 0,
+      "drawn": false,
+      "width": 2,
+      "height": 3,
+      "rotation": 0,
+      "flags": {}
+    },
+    {
+      "name": "Let's toast the Goddess!",
+      "type": "base",
+      "description": "Let's toast the Goddess!",
+      "data": {
+        "type": "Action"
+      },
+      "suit": "",
+      "value": 0,
+      "back": {
+        "name": "Deirdre the Priestess",
+        "text": "Deirdre the Priestess",
+        "image": "Cards/base/deirdre/deirdre-the-priestess-back.png"
+      },
+      "faces": [
+        {
+          "name": "Let's toast the Goddess!",
+          "img": "Cards/base/deirdre/lets-toast-the-goddess.png",
+          "text": "<div class=\"cardtext\">Each player (including you) reveals a Drink (with possible Chasers) from the Drink Deck and drinks it.</div><div class=\"cardtext\">If a player reveals a Drink Event before revealing a Drink, that player discards it and reveals it again.</div>"
+        }
+      ],
+      "face": 0,
+      "drawn": false,
+      "width": 2,
+      "height": 3,
+      "rotation": 0,
+      "flags": {}
+    },
+    {
+      "name": "The Wench thinks you should stop playing with the drinks.",
+      "type": "base",
+      "description": "The Wench thinks you should stop playing with the drinks.",
+      "data": {
+        "type": "Sometimes"
+      },
+      "suit": "",
+      "value": 0,
+      "back": {
+        "name": "Deirdre the Priestess",
+        "text": "Deirdre the Priestess",
+        "image": "Cards/base/deirdre/deirdre-the-priestess-back.png"
+      },
+      "faces": [
+        {
+          "name": "The Wench thinks you should stop playing with the drinks.",
+          "img": "Cards/base/deirdre/the-wench-thinks-you-should-stop-playing-with.png",
+          "text": "<div class=\"cardtext\">Negate a Sometimes Card that changes the effects of a Drink. (This includes cards that Negate, Ignore or split Drinks, pass Drinks to other players, or alter any of a Drink's effects.)</div><div class=\"cardtext\">This card can only be affected by <b>I don't think so!</b></div>"
+        }
+      ],
+      "face": 0,
+      "drawn": false,
+      "width": 2,
+      "height": 3,
+      "rotation": 0,
+      "flags": {}
+    },
+    {
+      "name": "I don't think so!",
+      "type": "base",
+      "description": "I don't think so!",
+      "data": {
+        "type": "Sometimes"
+      },
+      "suit": "",
+      "value": 0,
+      "back": {
+        "name": "Deirdre the Priestess",
+        "text": "Deirdre the Priestess",
+        "image": "Cards/base/deirdre/deirdre-the-priestess-back.png"
+      },
+      "faces": [
+        {
+          "name": "I don't think so!",
+          "img": "Cards/base/deirdre/i-dont-think-so.png",
+          "text": "<div class=\"cardtext\">Negate a Sometimes Card.</div><div class=\"cardtext\">This card can only be affected by another <b>I don't think so!</b></div>"
+        }
+      ],
+      "face": 0,
+      "drawn": false,
+      "width": 2,
+      "height": 3,
+      "rotation": 0,
+      "flags": {}
+    },
+    {
+      "name": "Wench, bring some drinks for my friends!",
+      "type": "base",
+      "description": "Wench, bring some drinks for my friends!",
+      "data": {
+        "type": "Sometimes"
+      },
+      "suit": "",
+      "value": 0,
+      "back": {
+        "name": "Deirdre the Priestess",
+        "text": "Deirdre the Priestess",
+        "image": "Cards/base/deirdre/deirdre-the-priestess-back.png"
+      },
+      "faces": [
+        {
+          "name": "Wench, bring some drinks for my friends!",
+          "img": "Cards/base/deirdre/wench-bring-some-drinks-for-my-friends.png",
+          "text": "<div class=\"cardtext\">You may play this card during the Order a Drink Phase of your turn.</div><div class=\"cardtext\">Pay 1 Gold to the Inn. Order 2 additional Drinks. (Drinks you order may be placed on any other players' Drink Me! Piles.)</div>"
+        }
+      ],
+      "face": 0,
+      "drawn": false,
+      "width": 2,
+      "height": 3,
+      "rotation": 0,
+      "flags": {}
+    },
+    {
+      "name": "Wench, bring some drinks for my friends!",
+      "type": "base",
+      "description": "Wench, bring some drinks for my friends!",
+      "data": {
+        "type": "Sometimes"
+      },
+      "suit": "",
+      "value": 0,
+      "back": {
+        "name": "Deirdre the Priestess",
+        "text": "Deirdre the Priestess",
+        "image": "Cards/base/deirdre/deirdre-the-priestess-back.png"
+      },
+      "faces": [
+        {
+          "name": "Wench, bring some drinks for my friends!",
+          "img": "Cards/base/deirdre/wench-bring-some-drinks-for-my-friends.png",
+          "text": "<div class=\"cardtext\">You may play this card during the Order a Drink Phase of your turn.</div><div class=\"cardtext\">Pay 1 Gold to the Inn. Order 2 additional Drinks. (Drinks you order may be placed on any other players' Drink Me! Piles.)</div>"
+        }
+      ],
+      "face": 0,
+      "drawn": false,
+      "width": 2,
+      "height": 3,
+      "rotation": 0,
+      "flags": {}
+    },
+    {
+      "name": "I'm not that kind of priestess!",
+      "type": "base",
+      "description": "I'm not that kind of priestess!",
+      "data": {
+        "type": "Action"
+      },
+      "suit": "",
+      "value": 0,
+      "back": {
+        "name": "Deirdre the Priestess",
+        "text": "Deirdre the Priestess",
+        "image": "Cards/base/deirdre/deirdre-the-priestess-back.png"
+      },
+      "faces": [
+        {
+          "name": "I'm not that kind of priestess!",
+          "img": "Cards/base/deirdre/im-not-that-kind-of-priestess.png",
+          "text": "<div class=\"cardtext\">Pick another player. They lose 2 Fortitude.</div>"
+        }
+      ],
+      "face": 0,
+      "drawn": false,
+      "width": 2,
+      "height": 3,
+      "rotation": 0,
+      "flags": {}
+    },
+    {
+      "name": "Water into Wine",
+      "type": "base",
+      "description": "Water into Wine",
+      "data": {
+        "type": "Sometimes"
+      },
+      "suit": "",
+      "value": 0,
+      "back": {
+        "name": "Deirdre the Priestess",
+        "text": "Deirdre the Priestess",
+        "image": "Cards/base/deirdre/deirdre-the-priestess-back.png"
+      },
+      "faces": [
+        {
+          "name": "Water into Wine",
+          "img": "Cards/base/deirdre/water-into-wine.png",
+          "text": "<div class=\"cardtext\">Add 2 Alcohol Content to a Drink.</div>"
+        }
+      ],
+      "face": 0,
+      "drawn": false,
+      "width": 2,
+      "height": 3,
+      "rotation": 0,
+      "flags": {}
+    },
+    {
+      "name": "Water into Wine",
+      "type": "base",
+      "description": "Water into Wine",
+      "data": {
+        "type": "Sometimes"
+      },
+      "suit": "",
+      "value": 0,
+      "back": {
+        "name": "Deirdre the Priestess",
+        "text": "Deirdre the Priestess",
+        "image": "Cards/base/deirdre/deirdre-the-priestess-back.png"
+      },
+      "faces": [
+        {
+          "name": "Water into Wine",
+          "img": "Cards/base/deirdre/water-into-wine.png",
+          "text": "<div class=\"cardtext\">Add 2 Alcohol Content to a Drink.</div>"
+        }
+      ],
+      "face": 0,
+      "drawn": false,
+      "width": 2,
+      "height": 3,
+      "rotation": 0,
+      "flags": {}
+    },
+    {
+      "name": "Stop being silly!",
+      "type": "base",
+      "description": "Stop being silly!",
+      "data": {
+        "type": "Sometimes"
+      },
+      "suit": "",
+      "value": 0,
+      "back": {
+        "name": "Deirdre the Priestess",
+        "text": "Deirdre the Priestess",
+        "image": "Cards/base/deirdre/deirdre-the-priestess-back.png"
+      },
+      "faces": [
+        {
+          "name": "Stop being silly!",
+          "img": "Cards/base/deirdre/stop-being-silly.png",
+          "text": "<div class=\"cardtext\">Ignore an Action or Sometimes Card that affects your Fortitude or Alcohol Content.</div>"
+        }
+      ],
+      "face": 0,
+      "drawn": false,
+      "width": 2,
+      "height": 3,
+      "rotation": 0,
+      "flags": {}
+    },
+    {
+      "name": "Tip the Wench.",
+      "type": "base",
+      "description": "Tip the Wench.",
+      "data": {
+        "type": "Sometimes"
+      },
+      "suit": "",
+      "value": 0,
+      "back": {
+        "name": "Deirdre the Priestess",
+        "text": "Deirdre the Priestess",
+        "image": "Cards/base/deirdre/deirdre-the-priestess-back.png"
+      },
+      "faces": [
+        {
+          "name": "Tip the Wench.",
+          "img": "Cards/base/deirdre/tip-the-wench.png",
+          "text": "<div class=\"cardtext\">Pick a player. They pay 1 Gold to the Inn.</div>"
+        }
+      ],
+      "face": 0,
+      "drawn": false,
+      "width": 2,
+      "height": 3,
+      "rotation": 0,
+      "flags": {}
+    },
+    {
+      "name": "My Goddess provides!",
+      "type": "base",
+      "description": "My Goddess provides!",
+      "data": {
+        "type": "Sometimes"
+      },
+      "suit": "",
+      "value": 0,
+      "back": {
+        "name": "Deirdre the Priestess",
+        "text": "Deirdre the Priestess",
+        "image": "Cards/base/deirdre/deirdre-the-priestess-back.png"
+      },
+      "faces": [
+        {
+          "name": "My Goddess provides!",
+          "img": "Cards/base/deirdre/my-goddess-provides.png",
+          "text": "<div class=\"cardtext\">You may play this card when you are about to lose Gold.</div><div class=\"cardtext\">Use Gold from the Inn, rather than from your own Stash.</div>"
+        }
+      ],
+      "face": 0,
+      "drawn": false,
+      "width": 2,
+      "height": 3,
+      "rotation": 0,
+      "flags": {}
+    },
+    {
+      "name": "A priestess can make money just about anywhere!",
+      "type": "base",
+      "description": "A priestess can make money just about anywhere!",
+      "data": {
+        "type": "Sometimes"
+      },
+      "suit": "",
+      "value": 0,
+      "back": {
+        "name": "Deirdre the Priestess",
+        "text": "Deirdre the Priestess",
+        "image": "Cards/base/deirdre/deirdre-the-priestess-back.png"
+      },
+      "faces": [
+        {
+          "name": "A priestess can make money just about anywhere!",
+          "img": "Cards/base/deirdre/a-priestess-can-make-money-just-about-anywhere.png",
+          "text": "<div class=\"cardtext\">You may play this card when you are about to lose Gold.</div><div class=\"cardtext\">Use Gold from the Inn, rather than from your own Stash.</div>"
+        }
+      ],
+      "face": 0,
+      "drawn": false,
+      "width": 2,
+      "height": 3,
+      "rotation": 0,
+      "flags": {}
+    },
+    {
+      "name": "My Goddess heals me.",
+      "type": "base",
+      "description": "My Goddess heals me.",
+      "data": {
+        "type": "Anytime"
+      },
+      "suit": "",
+      "value": 0,
+      "back": {
+        "name": "Deirdre the Priestess",
+        "text": "Deirdre the Priestess",
+        "image": "Cards/base/deirdre/deirdre-the-priestess-back.png"
+      },
+      "faces": [
+        {
+          "name": "My Goddess heals me.",
+          "img": "Cards/base/deirdre/my-goddess-heals-me.png",
+          "text": "<div class=\"cardtext\">Gain 2 Fortitude.</div>"
+        }
+      ],
+      "face": 0,
+      "drawn": false,
+      "width": 2,
+      "height": 3,
+      "rotation": 0,
+      "flags": {}
+    },
+    {
+      "name": "My Goddess heals me.",
+      "type": "base",
+      "description": "My Goddess heals me.",
+      "data": {
+        "type": "Anytime"
+      },
+      "suit": "",
+      "value": 0,
+      "back": {
+        "name": "Deirdre the Priestess",
+        "text": "Deirdre the Priestess",
+        "image": "Cards/base/deirdre/deirdre-the-priestess-back.png"
+      },
+      "faces": [
+        {
+          "name": "My Goddess heals me.",
+          "img": "Cards/base/deirdre/my-goddess-heals-me.png",
+          "text": "<div class=\"cardtext\">Gain 2 Fortitude.</div>"
+        }
+      ],
+      "face": 0,
+      "drawn": false,
+      "width": 2,
+      "height": 3,
+      "rotation": 0,
+      "flags": {}
+    },
+    {
+      "name": "My Goddess protects me!",
+      "type": "base",
+      "description": "My Goddess protects me!",
+      "data": {
+        "type": "Sometimes"
+      },
+      "suit": "",
+      "value": 0,
+      "back": {
+        "name": "Deirdre the Priestess",
+        "text": "Deirdre the Priestess",
+        "image": "Cards/base/deirdre/deirdre-the-priestess-back.png"
+      },
+      "faces": [
+        {
+          "name": "My Goddess protects me!",
+          "img": "Cards/base/deirdre/my-goddess-protects-me.png",
+          "text": "<div class=\"cardtext\">Ignore an Action or Sometimes Card that affects your Fortitude.</div>"
+        }
+      ],
+      "face": 0,
+      "drawn": false,
+      "width": 2,
+      "height": 3,
+      "rotation": 0,
+      "flags": {}
+    },
+    {
+      "name": "My Goddess protects me!",
+      "type": "base",
+      "description": "My Goddess protects me!",
+      "data": {
+        "type": "Sometimes"
+      },
+      "suit": "",
+      "value": 0,
+      "back": {
+        "name": "Deirdre the Priestess",
+        "text": "Deirdre the Priestess",
+        "image": "Cards/base/deirdre/deirdre-the-priestess-back.png"
+      },
+      "faces": [
+        {
+          "name": "My Goddess protects me!",
+          "img": "Cards/base/deirdre/my-goddess-protects-me.png",
+          "text": "<div class=\"cardtext\">Ignore an Action or Sometimes Card that affects your Fortitude.</div>"
+        }
+      ],
+      "face": 0,
+      "drawn": false,
+      "width": 2,
+      "height": 3,
+      "rotation": 0,
+      "flags": {}
+    },
+    {
+      "name": "My Goddess doesn't like that!",
+      "type": "base",
+      "description": "My Goddess doesn't like that!",
+      "data": {
+        "type": "Sometimes"
+      },
+      "suit": "",
+      "value": 0,
+      "back": {
+        "name": "Deirdre the Priestess",
+        "text": "Deirdre the Priestess",
+        "image": "Cards/base/deirdre/deirdre-the-priestess-back.png"
+      },
+      "faces": [
+        {
+          "name": "My Goddess doesn't like that!",
+          "img": "Cards/base/deirdre/my-goddess-doesnt-like-that.png",
+          "text": "<div class=\"cardtext\">You may play this card immediately after you lose Fortitude from a card played by another player. You may not play this card if you reduced that Fortitude loss.</div><div class=\"cardtext\">That player loses 2 Fortitude.</div>"
+        }
+      ],
+      "face": 0,
+      "drawn": false,
+      "width": 2,
+      "height": 3,
+      "rotation": 0,
+      "flags": {}
+    },
+    {
+      "name": "My Goddess made me do it!",
+      "type": "base",
+      "description": "My Goddess made me do it!",
+      "data": {
+        "type": "Action"
+      },
+      "suit": "",
+      "value": 0,
+      "back": {
+        "name": "Deirdre the Priestess",
+        "text": "Deirdre the Priestess",
+        "image": "Cards/base/deirdre/deirdre-the-priestess-back.png"
+      },
+      "faces": [
+        {
+          "name": "My Goddess made me do it!",
+          "img": "Cards/base/deirdre/my-goddess-made-me-do-it.png",
+          "text": "<div class=\"cardtext\">Pick another player. They lose 2 Fortitude.</div>"
+        }
+      ],
+      "face": 0,
+      "drawn": false,
+      "width": 2,
+      "height": 3,
+      "rotation": 0,
+      "flags": {}
+    },
+    {
+      "name": "My Goddess made me do it!",
+      "type": "base",
+      "description": "My Goddess made me do it!",
+      "data": {
+        "type": "Action"
+      },
+      "suit": "",
+      "value": 0,
+      "back": {
+        "name": "Deirdre the Priestess",
+        "text": "Deirdre the Priestess",
+        "image": "Cards/base/deirdre/deirdre-the-priestess-back.png"
+      },
+      "faces": [
+        {
+          "name": "My Goddess made me do it!",
+          "img": "Cards/base/deirdre/my-goddess-made-me-do-it.png",
+          "text": "<div class=\"cardtext\">Pick another player. They lose 2 Fortitude.</div>"
+        }
+      ],
+      "face": 0,
+      "drawn": false,
+      "width": 2,
+      "height": 3,
+      "rotation": 0,
+      "flags": {}
+    },
+    {
+      "name": "Sorry, sometimes my healing spells just wear off.",
+      "type": "base",
+      "description": "Sorry, sometimes my healing spells just wear off.",
+      "data": {
+        "type": "Action"
+      },
+      "suit": "",
+      "value": 0,
+      "back": {
+        "name": "Deirdre the Priestess",
+        "text": "Deirdre the Priestess",
+        "image": "Cards/base/deirdre/deirdre-the-priestess-back.png"
+      },
+      "faces": [
+        {
+          "name": "Sorry, sometimes my healing spells just wear off.",
+          "img": "Cards/base/deirdre/sorry-sometimes-my-healing-spells-just-wear-off.png",
+          "text": "<div class=\"cardtext\">Pick another player. They lose 1 Fortitude.</div>"
+        }
+      ],
+      "face": 0,
+      "drawn": false,
+      "width": 2,
+      "height": 3,
+      "rotation": 0,
+      "flags": {}
+    },
+    {
+      "name": "Oh no! I think that growth on your arm might be Mummy Rot!",
+      "type": "base",
+      "description": "Oh no! I think that growth on your arm might be Mummy Rot!",
+      "data": {
+        "type": "Action"
+      },
+      "suit": "",
+      "value": 0,
+      "back": {
+        "name": "Deirdre the Priestess",
+        "text": "Deirdre the Priestess",
+        "image": "Cards/base/deirdre/deirdre-the-priestess-back.png"
+      },
+      "faces": [
+        {
+          "name": "Oh no! I think that growth on your arm might be Mummy Rot!",
+          "img": "Cards/base/deirdre/oh-no-i-think-that-growth-on-your-arm-might.png",
+          "text": "<div class=\"cardtext\">Pick another player. They lose 2 Fortitude.</div>"
+        }
+      ],
+      "face": 0,
+      "drawn": false,
+      "width": 2,
+      "height": 3,
+      "rotation": 0,
+      "flags": {}
+    },
+    {
+      "name": "Prayer of Healing",
+      "type": "base",
+      "description": "Prayer of Healing",
+      "data": {
+        "type": "Action"
+      },
+      "suit": "",
+      "value": 0,
+      "back": {
+        "name": "Deirdre the Priestess",
+        "text": "Deirdre the Priestess",
+        "image": "Cards/base/deirdre/deirdre-the-priestess-back.png"
+      },
+      "faces": [
+        {
+          "name": "Prayer of Healing",
+          "img": "Cards/base/deirdre/prayer-of-healing.png",
+          "text": "<div class=\"cardtext\">Pick another player. They gain 2 Fortitude and pay you 1 Gold.</div>"
+        }
+      ],
+      "face": 0,
+      "drawn": false,
+      "width": 2,
+      "height": 3,
+      "rotation": 0,
+      "flags": {}
+    },
+    {
+      "name": "Mass Heal!",
+      "type": "base",
+      "description": "Mass Heal!",
+      "data": {
+        "type": "Action"
+      },
+      "suit": "",
+      "value": 0,
+      "back": {
+        "name": "Deirdre the Priestess",
+        "text": "Deirdre the Priestess",
+        "image": "Cards/base/deirdre/deirdre-the-priestess-back.png"
+      },
+      "faces": [
+        {
+          "name": "Mass Heal!",
+          "img": "Cards/base/deirdre/mass-heal.png",
+          "text": "<div class=\"cardtext\">Each player (including you) gains 1 Fortitude.</div><div class=\"cardtext\">Each other player pays you 1 Gold.</div>"
+        }
+      ],
+      "face": 0,
+      "drawn": false,
+      "width": 2,
+      "height": 3,
+      "rotation": 0,
+      "flags": {}
+    }
+  ]
+}

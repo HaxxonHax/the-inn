@@ -1,0 +1,911 @@
+{
+  "name": "The Inn Drink Deck",
+  "type": "pile",
+  "description": "",
+  "img": "Cards/drinks/drink-back.png",
+  "data": {},
+  "cards": [
+    {
+      "name": "Light Ale",
+      "description": "+1A",
+      "type": "base",
+      "data": {
+        "all": { "alcohol": 1 },
+        "type": "drink",
+        "chaser": false
+      },
+      "suit": "",
+      "value": 1,
+      "back": {
+        "name": "",
+        "text": "",
+        "image": "Cards/drinks/drink-back.png"
+      },
+      "faces": [
+        {
+          "name": "Light Ale",
+          "img": "Cards/drinks/light-ale.png",
+          "text": "<div id=\"cardtext\">Less filling!</div>"
+        }
+      ],
+      "face": 0,
+      "drawn": false,
+      "width": 2,
+      "height": 3,
+      "rotation": 0,
+      "flags": {}
+    },
+    {
+      "name": "Light Ale",
+      "description": "+1A",
+      "type": "base",
+      "data": {
+        "all": { "alcohol": 1 },
+        "type": "drink",
+        "chaser": false       
+      },
+      "suit": "",
+      "value": 1,
+      "back": {
+        "name": "",
+        "text": "",
+        "image": "Cards/drinks/drink-back.png"
+      },
+      "faces": [
+        {
+          "name": "Light Ale",
+          "img": "Cards/drinks/light-ale.png",
+          "text": "<div id=\"cardtext\">Less filling!</div>"
+        }
+      ],
+      "face": 0,
+      "drawn": false,
+      "width": 2,
+      "height": 3,
+      "rotation": 0,
+      "flags": {}
+    },
+    {
+      "name": "Light Ale",
+      "description": "+1A",
+      "type": "base",
+      "data": {
+        "all": { "alcohol": 1 },
+        "type": "drink",
+        "chaser": false
+      },
+      "suit": "",
+      "value": 1,
+      "back": {
+        "name": "",
+        "text": "",
+        "image": "Cards/drinks/drink-back.png"
+      },
+      "faces": [
+        {
+          "name": "Light Ale",
+          "img": "Cards/drinks/light-ale.png",
+          "text": "<div id=\"cardtext\">Less filling!</div>"
+        }
+      ],
+      "face": 0,
+      "drawn": false,
+      "width": 2,
+      "height": 3,
+      "rotation": 0,
+      "flags": {}
+    },
+    {
+      "name": "Light Ale with a Chaser",
+      "description": "+1A+",
+      "type": "base",
+      "data": {
+        "all": { "alcohol": 1 },
+        "type": "drink",
+        "chaser": true
+      },
+      "suit": "",
+      "value": 1,
+      "back": {
+        "name": "",
+        "text": "",
+        "image": "Cards/drinks/drink-back.png"
+      },
+      "faces": [
+        {
+          "name": "Light Ale with a Chaser",
+          "img": "Cards/drinks/light-ale-w-chaser.png",
+          "text": "<div id=\"cardtext\">Less filling!</div>"
+        }
+      ],
+      "face": 0,
+      "drawn": false,
+      "width": 2,
+      "height": 3,
+      "rotation": 0,
+      "flags": {}
+    },
+    {
+      "name": "Light Ale with a Chaser",
+      "description": "+1A+",
+      "type": "base",
+      "data": {
+        "all": { "alcohol": 1 },
+        "type": "drink",
+        "chaser": true
+      },
+      "suit": "",
+      "value": 1,
+      "back": {
+        "name": "",
+        "text": "",
+        "image": "Cards/drinks/drink-back.png"
+      },
+      "faces": [
+        {
+          "name": "Light Ale with a Chaser",
+          "img": "Cards/drinks/light-ale-w-chaser.png",
+          "text": "<div id=\"cardtext\">Less filling!</div>"
+        }
+      ],
+      "face": 0,
+      "drawn": false,
+      "width": 2,
+      "height": 3,
+      "rotation": 0,
+      "flags": {}
+    },
+    {
+      "name": "Dark Ale",
+      "description": "+1A",
+      "type": "base",
+      "data": {
+        "all": { "alcohol": 1 },
+        "type": "drink",
+        "chaser": false
+      },
+      "suit": "",
+      "value": 1,
+      "back": {
+        "name": "",
+        "text": "",
+        "image": "Cards/drinks/drink-back.png"
+      },
+      "faces": [
+        {
+          "name": "Dark Ale",
+          "img": "Cards/drinks/dark-ale.png",
+          "text": "<div id=\"cardtext\">Tastes great!</div>"
+        }
+      ],
+      "face": 0,
+      "drawn": false,
+      "width": 2,
+      "height": 3,
+      "rotation": 0,
+      "flags": {}
+    },
+    {
+      "name": "Dark Ale",
+      "description": "+1A",
+      "type": "base",
+      "data": {
+        "all": { "alcohol": 1 },
+        "type": "drink",
+        "chaser": false
+      },
+      "suit": "",
+      "value": 1,
+      "back": {
+        "name": "",
+        "text": "",
+        "image": "Cards/drinks/drink-back.png"
+      },
+      "faces": [
+        {
+          "name": "Dark Ale",
+          "img": "Cards/drinks/dark-ale.png",
+          "text": "<div id=\"cardtext\">Tastes great!</div>"
+        }
+      ],
+      "face": 0,
+      "drawn": false,
+      "width": 2,
+      "height": 3,
+      "rotation": 0,
+      "flags": {}
+    },
+    {
+      "name": "Dark Ale",
+      "description": "+1A",
+      "type": "base",
+      "data": {
+        "all": { "alcohol": 1 },
+        "type": "drink",
+        "chaser": false
+      },
+      "suit": "",
+      "value": 1,
+      "back": {
+        "name": "",
+        "text": "",
+        "image": "Cards/drinks/drink-back.png"
+      },
+      "faces": [
+        {
+          "name": "Dark Ale",
+          "img": "Cards/drinks/dark-ale.png",
+          "text": "<div id=\"cardtext\">Tastes great!</div>"
+        }
+      ],
+      "face": 0,
+      "drawn": false,
+      "width": 2,
+      "height": 3,
+      "rotation": 0,
+      "flags": {}
+    },
+    {
+      "name": "Dark Ale with a Chaser",
+      "description": "+1A+",
+      "type": "base",
+      "data": {
+        "all": { "alcohol": 1 },
+        "type": "drink",
+        "chaser": true
+      },
+      "suit": "",
+      "value": 1,
+      "back": {
+        "name": "",
+        "text": "",
+        "image": "Cards/drinks/drink-back.png"
+      },
+      "faces": [
+        {
+          "name": "Dark Ale with a Chaser",
+          "img": "Cards/drinks/dark-ale-w-chaser.png",
+          "text": "<div id=\"cardtext\">Tastes great!</div>"
+        }
+      ],
+      "face": 0,
+      "drawn": false,
+      "width": 2,
+      "height": 3,
+      "rotation": 0,
+      "flags": {}
+    },
+    {
+      "name": "Wine",
+      "description": "+2A",
+      "type": "base",
+      "data": {
+        "all": { "alcohol": 2 },
+        "type": "drink",
+        "chaser": false
+      },
+      "suit": "",
+      "value": 2,
+      "back": {
+        "name": "",
+        "text": "",
+        "image": "Cards/drinks/drink-back.png"
+      },
+      "faces": [
+        {
+          "name": "Wine",
+          "img": "Cards/drinks/wine.png",
+          "text": "<div id=\"cardtext\">Mmm. Classy!</div>"
+        }
+      ],
+      "face": 0,
+      "drawn": false,
+      "width": 2,
+      "height": 3,
+      "rotation": 0,
+      "flags": {}
+    },
+    {
+      "name": "Wine",
+      "description": "+2A",
+      "type": "base",
+      "data": {
+        "all": { "alcohol": 2 },
+        "type": "drink",
+        "chaser": false
+      },
+      "suit": "",
+      "value": 2,
+      "back": {
+        "name": "",
+        "text": "",
+        "image": "Cards/drinks/drink-back.png"
+      },
+      "faces": [
+        {
+          "name": "Wine",
+          "img": "Cards/drinks/wine.png",
+          "text": "<div id=\"cardtext\">Mmm. Classy!</div>"
+        }
+      ],
+      "face": 0,
+      "drawn": false,
+      "width": 2,
+      "height": 3,
+      "rotation": 0,
+      "flags": {}
+    },
+    {
+      "name": "Wine",
+      "description": "+2A",
+      "type": "base",
+      "data": {
+        "all": { "alcohol": 2 },
+        "type": "drink",
+        "chaser": false
+      },
+      "suit": "",
+      "value": 2,
+      "back": {
+        "name": "",
+        "text": "",
+        "image": "Cards/drinks/drink-back.png"
+      },
+      "faces": [
+        {
+          "name": "Wine",
+          "img": "Cards/drinks/wine.png",
+          "text": "<div id=\"cardtext\">Mmm. Classy!</div>"
+        }
+      ],
+      "face": 0,
+      "drawn": false,
+      "width": 2,
+      "height": 3,
+      "rotation": 0,
+      "flags": {}
+    },
+    {
+      "name": "Wine with a Chaser",
+      "description": "+2A+",
+      "type": "base",
+      "data": {
+        "all": { "alcohol": 2 },
+        "type": "drink",
+        "chaser": true
+      },
+      "suit": "",
+      "value": 2,
+      "back": {
+        "name": "",
+        "text": "",
+        "image": "Cards/drinks/drink-back.png"
+      },
+      "faces": [
+        {
+          "name": "Wine with a Chaser",
+          "img": "Cards/drinks/wine-w-chaser.png",
+          "text": "<div id=\"cardtext\">Mmm. Classy!</div>"
+        }
+      ],
+      "face": 0,
+      "drawn": false,
+      "width": 2,
+      "height": 3,
+      "rotation": 0,
+      "flags": {}
+    },
+    {
+      "name": "Elven Wine",
+      "description": "+3A",
+      "type": "base",
+      "data": {
+        "all": { "alcohol": 3 },
+        "type": "drink",
+        "chaser": false
+      },
+      "suit": "",
+      "value": 3,
+      "back": {
+        "name": "",
+        "text": "",
+        "image": "Cards/drinks/drink-back.png"
+      },
+      "faces": [
+        {
+          "name": "Elven Wine",
+          "img": "Cards/drinks/elven-wine.png",
+          "text": "<div id=\"cardtext\">The elves drink it, so it must be good!</div>"
+        }
+      ],
+      "face": 0,
+      "drawn": false,
+      "width": 2,
+      "height": 3,
+      "rotation": 0,
+      "flags": {}
+    },
+    {
+      "name": "Elven Wine",
+      "description": "+3A",
+      "type": "base",
+      "data": {
+        "all": { "alcohol": 3 },
+        "type": "drink",
+        "chaser": false
+      },
+      "suit": "",
+      "value": 3,
+      "back": {
+        "name": "",
+        "text": "",
+        "image": "Cards/drinks/drink-back.png"
+      },
+      "faces": [
+        {
+          "name": "Elven Wine",
+          "img": "Cards/drinks/elven-wine.png",
+          "text": "<div id=\"cardtext\">The elves drink it, so it must be good!</div>"
+        }
+      ],
+      "face": 0,
+      "drawn": false,
+      "width": 2,
+      "height": 3,
+      "rotation": 0,
+      "flags": {}
+    },
+    {
+      "name": "Elven Wine with a Chaser",
+      "description": "+3A+",
+      "type": "base",
+      "data": {
+        "all": { "alcohol": 3 },
+        "type": "drink",
+        "chaser": true
+      },
+      "suit": "",
+      "value": 3,
+      "back": {
+        "name": "",
+        "text": "",
+        "image": "Cards/drinks/drink-back.png"
+      },
+      "faces": [
+        {
+          "name": "Elven Wine with a Chaser",
+          "img": "Cards/drinks/elven-wine-w-chaser.png",
+          "text": "<div id=\"cardtext\">The elves drink it, so it must be good!</div>"
+        }
+      ],
+      "face": 0,
+      "drawn": false,
+      "width": 2,
+      "height": 3,
+      "rotation": 0,
+      "flags": {}
+    },
+    {
+      "name": "Dragon Breath Ale",
+      "description": "+4A",
+      "type": "base",
+      "data": {
+        "all": { "alcohol": 4 },
+        "type": "drink",
+        "chaser": false
+      },
+      "suit": "",
+      "value": 4,
+      "back": {
+        "name": "",
+        "text": "",
+        "image": "Cards/drinks/drink-back.png"
+      },
+      "faces": [
+        {
+          "name": "Dragon Breath Ale",
+          "img": "Cards/drinks/dragon-breath-ale.png",
+          "text": "<div id=\"cardtext\">Brewed under the direct supervision of Real Fire-Breathing Dragons!</div>"
+        }
+      ],
+      "face": 0,
+      "drawn": false,
+      "width": 2,
+      "height": 3,
+      "rotation": 0,
+      "flags": {}
+    },
+    {
+      "name": "Dragon Breath Ale",
+      "description": "+4A",
+      "type": "base",
+      "data": {
+        "all": { "alcohol": 4 },
+        "type": "drink",
+        "chaser": false
+      },
+      "suit": "",
+      "value": 4,
+      "back": {
+        "name": "",
+        "text": "",
+        "image": "Cards/drinks/drink-back.png"
+      },
+      "faces": [
+        {
+          "name": "Dragon Breath Ale",
+          "img": "Cards/drinks/dragon-breath-ale.png",
+          "text": "<div id=\"cardtext\">Brewed under the direct supervision of Real Fire-Breathing Dragons!</div>"
+        }
+      ],
+      "face": 0,
+      "drawn": false,
+      "width": 2,
+      "height": 3,
+      "rotation": 0,
+      "flags": {}
+    },
+    {
+      "name": "Dragon Breath Ale",
+      "description": "+4A",
+      "type": "base",
+      "data": {
+        "all": { "alcohol": 4 },
+        "type": "drink",
+        "chaser": false
+      },
+      "suit": "",
+      "value": 4,
+      "back": {
+        "name": "",
+        "text": "",
+        "image": "Cards/drinks/drink-back.png"
+      },
+      "faces": [
+        {
+          "name": "Dragon Breath Ale",
+          "img": "Cards/drinks/dragon-breath-ale.png",
+          "text": "<div id=\"cardtext\">Brewed under the direct supervision of Real Fire-Breathing Dragons!</div>"
+        }
+      ],
+      "face": 0,
+      "drawn": false,
+      "width": 2,
+      "height": 3,
+      "rotation": 0,
+      "flags": {}
+    },
+    {
+      "name": "Dirty Dishwater",
+      "description": "Drink",
+      "type": "base",
+      "data": {
+        "all": { "fortitude": -1 },
+        "type": "drink",
+        "chaser": false
+      },
+      "suit": "",
+      "value": -1,
+      "back": {
+        "name": "",
+        "text": "",
+        "image": "Cards/drinks/drink-back.png"
+      },
+      "faces": [
+        {
+          "name": "Dirty Dishwater",
+          "img": "Cards/drinks/dirty-dishwater.png",
+          "text": "<div id=\"cardtext\">Bleagh!</div>"
+        }
+      ],
+      "face": 0,
+      "drawn": false,
+      "width": 2,
+      "height": 3,
+      "rotation": 0,
+      "flags": {}
+    },
+    {
+      "name": "We're Cutting You Off!",
+      "description": "Drink",
+      "type": "base",
+      "data": {
+        "all": { "alcohol": -1 },
+        "type": "drink",
+        "chaser": false
+      },
+      "suit": "",
+      "value": -1,
+      "back": {
+        "name": "",
+        "text": "",
+        "image": "Cards/drinks/drink-back.png"
+      },
+      "faces": [
+        {
+          "name": "We're Cutting You Off!",
+          "img": "Cards/drinks/we-re-cutting-you-off.png",
+          "text": "<div id=\"cardtext\">You can't hold your liquor, so the Wench brings you a cup of coffee instead.</div>"
+        }
+      ],
+      "face": 0,
+      "drawn": false,
+      "width": 2,
+      "height": 3,
+      "rotation": 0,
+      "flags": {}
+    },
+    {
+      "name": "Orcish Rotgut",
+      "description": "Orcs love this stuff! (-2F Any or +2A Orc)",
+      "type": "base",
+      "data": {
+        "all": { "fortitude": -2 },
+        "orc": { "alcohol": 2 },
+        "type": "drink",
+        "chaser": false
+      },
+      "suit": "",
+      "value": 2,
+      "back": {
+        "name": "",
+        "text": "",
+        "image": "Cards/drinks/drink-back.png"
+      },
+      "faces": [
+        {
+          "name": "Orcish Rotgut",
+          "img": "Cards/drinks/orcish-rotgut.png",
+          "text": "<div id=\"cardtext\">Orcs love this stuff!</div>"
+        }
+      ],
+      "face": 0,
+      "drawn": false,
+      "width": 2,
+      "height": 3,
+      "rotation": 0,
+      "flags": {}
+    },
+    {
+      "name": "Troll Swill",
+      "description": "Drink",
+      "type": "base",
+      "data": {
+        "all": { "alcohol": 1, "fortitude": -1 },
+        "troll": { "alcohol": 2 },
+        "type": "drink",
+        "chaser": false
+      },
+      "suit": "",
+      "value": 1,
+      "back": {
+        "name": "",
+        "text": "",
+        "image": "Cards/drinks/drink-back.png"
+      },
+      "faces": [
+        {
+          "name": "Troll Swill",
+          "img": "Cards/drinks/troll-swill.png",
+          "text": "<div id=\"cardtext\">Just close your eyes and chug. It's the only way!</div>"
+        }
+      ],
+      "face": 0,
+      "drawn": false,
+      "width": 2,
+      "height": 3,
+      "rotation": 0,
+      "flags": {}
+    },
+    {
+      "name": "Water",
+      "description": "Drink",
+      "type": "base",
+      "data": {
+        "all": { "alcohol": 0 },
+        "type": "drink",
+        "chaser": false
+      },
+      "suit": "",
+      "value": 0,
+      "back": {
+        "name": "",
+        "text": "",
+        "image": "Cards/drinks/drink-back.png"
+      },
+      "faces": [
+        {
+          "name": "Water",
+          "img": "Cards/drinks/water.png",
+          "text": "<div id=\"cardtext\">Ah! Straight from the horse's trough!</div>"
+        }
+      ],
+      "face": 0,
+      "drawn": false,
+      "width": 2,
+      "height": 3,
+      "rotation": 0,
+      "flags": {}
+    },
+    {
+      "name": "Holy Water",
+      "description": "Drink",
+      "type": "base",
+      "data": {
+        "all": { "fortitude": 2 },
+        "type": "drink",
+        "chaser": false
+      },
+      "suit": "",
+      "value": 2,
+      "back": {
+        "name": "",
+        "text": "",
+        "image": "Cards/drinks/drink-back.png"
+      },
+      "faces": [
+        {
+          "name": "Holy Water",
+          "img": "Cards/drinks/holy-water.png",
+          "text": "<div id=\"cardtext\">It tastes divine!</div>"
+        }
+      ],
+      "face": 0,
+      "drawn": false,
+      "width": 2,
+      "height": 3,
+      "rotation": 0,
+      "flags": {}
+    },
+    {
+      "name": "Wizard's Brew",
+      "description": "Drink",
+      "type": "base",
+      "data": {
+        "all": { "alcohol": 2, "fortitude": 2 },
+        "type": "drink",
+        "chaser": false
+      },
+      "suit": "",
+      "value": 2,
+      "back": {
+        "name": "",
+        "text": "",
+        "image": "Cards/drinks/drink-back.png"
+      },
+      "faces": [
+        {
+          "name": "Wizard's Brew",
+          "img": "Cards/drinks/wizards-brew.png",
+          "text": "<div id=\"cardtext\">You see colors! The room spins! This suff is great!</div>"
+        }
+      ],
+      "face": 0,
+      "drawn": false,
+      "width": 2,
+      "height": 3,
+      "rotation": 0,
+      "flags": {}
+    },
+    {
+      "name": "Round on the House!",
+      "description": "Drink Event",
+      "type": "base",
+      "data": {
+        "all": {},
+        "type": "event",
+        "chaser": false
+      },
+      "suit": "",
+      "value": 0,
+      "back": {
+        "name": "",
+        "text": "",
+        "image": "Cards/drinks/drink-back.png"
+      },
+      "faces": [
+        {
+          "name": "Round on the House!",
+          "img": "Cards/drinks/round-on-the-house.png",
+          "text": "<div id=\"cardtext\">Reveal a Drink (with possible Chasers) from the Drink Deck. If you reveal a Drink Event before revealing a Drink, discard it and reveal again.</div><div id=\"cardtext\">Each player (including you) drinks a copy of the revealed Drink.</div>"
+        }
+      ],
+      "face": 0,
+      "drawn": false,
+      "width": 2,
+      "height": 3,
+      "rotation": 0,
+      "flags": {}
+    },
+    {
+      "name": "Round on the House!",
+      "description": "Drink Event",
+      "type": "base",
+      "data": {
+        "all": {},
+        "type": "event",
+        "chaser": false
+      },
+      "suit": "",
+      "value": 0,
+      "back": {
+        "name": "",
+        "text": "",
+        "image": "Cards/drinks/drink-back.png"
+      },
+      "faces": [
+        {
+          "name": "Round on the House!",
+          "img": "Cards/drinks/round-on-the-house.png",
+          "text": "<div id=\"cardtext\">Reveal a Drink (with possible Chasers) from the Drink Deck. If you reveal a Drink Event before revealing a Drink, discard it and reveal again.</div><div id=\"cardtext\">Each player (including you) drinks a copy of the revealed Drink.</div>"
+        }
+      ],
+      "face": 0,
+      "drawn": false,
+      "width": 2,
+      "height": 3,
+      "rotation": 0,
+      "flags": {}
+    },
+    {
+      "name": "Drinking Contest!",
+      "description": "Drink Event",
+      "type": "base",
+      "data": {
+        "all": {},
+        "type": "event",
+        "chaser": false
+      },
+      "suit": "",
+      "value": 0,
+      "back": {
+        "name": "",
+        "text": "",
+        "image": "Cards/drinks/drink-back.png"
+      },
+      "faces": [
+        {
+          "name": "Drinking Contest!",
+          "img": "Cards/drinks/drinking-contest.png",
+          "text": "<div id=\"cardtext\">Each player reveals a Drink from the Drink Deck and drinks it. The player who reveals the Drink with the highest Alcohol Content (even if they avoid the effects of the Drink) wins 1 Gold from each other player.</div><div id=\"cardtext\">If there is a tie, the players who tied reveal and drink again until there is a winner.</div><div id=\"cardtext\">The effects of the Drink Event Cards are ignored and they count as 0 Alcohol Content.</div>"
+        }
+      ],
+      "face": 0,
+      "drawn": false,
+      "width": 2,
+      "height": 3,
+      "rotation": 0,
+      "flags": {}
+    },
+    {
+      "name": "Drinking Contest!",
+      "description": "Drink Event",
+      "type": "base",
+      "data": {
+        "all": {},
+        "type": "event",
+        "chaser": false
+      },
+      "suit": "",
+      "value": 0,
+      "back": {
+        "name": "",
+        "text": "",
+        "image": "Cards/drinks/drink-back.png"
+      },
+      "faces": [
+        {
+          "name": "Drinking Contest!",
+          "img": "Cards/drinks/drinking-contest.png",
+          "text": "<div id=\"cardtext\">Each player reveals a Drink from the Drink Deck and drinks it. The player who reveals the Drink with the highest Alcohol Content (even if they avoid the effects of the Drink) wins 1 Gold from each other player.</div><div id=\"cardtext\">If there is a tie, the players who tied reveal and drink again until there is a winner.</div><div id=\"cardtext\">The effects of the Drink Event Cards are ignored and they count as 0 Alcohol Content.</div>"
+        }
+      ],
+      "face": 0,
+      "drawn": false,
+      "width": 2,
+      "height": 3,
+      "rotation": 0,
+      "flags": {}
+    }
+  ]
+}
