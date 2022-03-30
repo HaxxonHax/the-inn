@@ -40,12 +40,14 @@ Create the following Macros, keeping Names as such (folder structure is optional
    - - Shuffle Drinks: consumables/shuffleDrinks.js
    - - Take A Drink: consumables/takeADrink.js
    - gold (Folder)
+   - - Gambling: gold/gambling.js
    - - Pay Gold: gold/payGold.js
    - init (Folder)
    - - Create Game Decks: init/createGameDecks.js
    - lib (Folder)
    - - Collect Discards: lib/collectDiscards.js
    - - Deal Card As Actor: lib/dealCardAsActor.js
+   - - Resolve Collect Pot: lib/resolveCollectPot.js
    - - Resolve Pay Gold: lib/resolvePayGold.js
    - - Resolve Take A Drink: lib/resolveTakeADrink.js
    - - Shuffle Deck: lib/shuffleDeck.js

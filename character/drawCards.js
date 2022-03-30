@@ -79,7 +79,7 @@ if (actor) {
                                 handName,
                                 actor.name + " attempted to draw " + nCardsToDraw + " cards.",
                                 actor.name,
-                                game.user.id,
+                                false,
                                 nCardsToDraw);
         }
       }
