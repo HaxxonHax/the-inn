@@ -22,7 +22,6 @@ if (actor) {
 
   let dialogContent = `
       <div>Ante</div>
-      <div>(select yourself to collect from ${gameName})</div>
         <div class="form-group">
           Amount to Add to Pot:
           <select id="gold-amount" name="gold-amount">
