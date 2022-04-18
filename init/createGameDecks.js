@@ -1,6 +1,11 @@
 /**
  * Create the Game Decks, including Decks for Actors that have Owners.
  */
+// createGameDecks()
+// Macro Name: Create Game Decks
+// Run As GM: false
+// Has Widget: false
+
 const gameName = "The Inn";
 const mainDeckBaseName = 'Main';
 const drinkDeckBaseName = 'Drink';

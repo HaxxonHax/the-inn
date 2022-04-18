@@ -43,7 +43,12 @@ Create the following Macros, keeping Names as such (folder structure is optional
    - - Gambling: gold/gambling.js
    - - Pay Gold: gold/payGold.js
    - init (Folder)
+   - - Create Buttons On Scene: init/createButtonsOnScene.js
+   - - Create Cards On Scene: init/createCardsOnScene.js
    - - Create Game Decks: init/createGameDecks.js
+   - - Create Stat Buttons On Scene: init/createStatButtonsOnScene.js
+   - - Create Stats On Scene: init/createStatsOnScene.js
+   - - Run All Inits: init/runAllInits.js
    - lib (Folder)
    - - Collect Discards: lib/collectDiscards.js
    - - Deal Card As Actor: lib/dealCardAsActor.js
@@ -53,3 +58,9 @@ Create the following Macros, keeping Names as such (folder structure is optional
    - - Shuffle Deck: lib/shuffleDeck.js
    - - Update Actor Stat: lib/updateActorStat.js
    - - Update Tile Image: lib/updateTileImage.js
+
+Once the initial setup is created, you can create a scene.  Note that all actors must have a user associated with them before running the init macros.  These initialization macros can be run in any order, or the **Run All Inits** macro will run them in succession.  The next step is to bring your actors onto the scene and import the decks.  After the decks are imported, it is easiest to copy them and rename them as noted above, allowing the proper ownership.
+
+# Notes
+
+The `createTilesOnScene.js` macro creates the tile buttons and the action configuration for them.  However, I was unable to create the sheets (`ActionConfig` from monks-active-tiles), so modifying them manually is not an option; you would instead have to delete them and re-create them to make them modifiable.
