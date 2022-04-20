@@ -8,29 +8,30 @@
 // Run As GM: false
 // Has Widget: true
 
-const gameName = "The Inn"
-const mainDeckBaseName = 'Main';
-const drinkDeckBaseName = 'Drink';
-const discardDeckSuffix = 'Discard';
-const deckSuffix = 'Deck';
+if (game.paused !== true && typeof game.user.character !== 'undefined') {
+  const gameName = "The Inn"
+  const mainDeckBaseName = 'Main';
+  const drinkDeckBaseName = 'Drink';
+  const discardDeckSuffix = 'Discard';
+  const deckSuffix = 'Deck';
 
-console.log(`${gameName} | Take a Drink`);
+  console.log(`${gameName} | Take a Drink`);
 
-let personalDrinkDeckName = "";
-let drinkDiscardName = "";
+  let personalDrinkDeckName = "";
+  let drinkDiscardName = "";
 
-if (args.length > 0) {
-  personalDrinkDeckName = args[0];
-} else {
-  personalDrinkDeckName = `${game.user.character.name} ${drinkDeckBaseName} ${deckSuffix}`;
+  if (args.length > 0) {
+    personalDrinkDeckName = args[0];
+  } else {
+    personalDrinkDeckName = `${game.user.character.name} ${drinkDeckBaseName} ${deckSuffix}`;
+  }
+
+  if (args.length > 1) {
+    drinkDiscardName = args[1];
+  } else {
+    drinkDiscardName = `${game.user.character.name} ${drinkDeckBaseName} ${discardDeckSuffix}`;
+  }
+
+  const playMacro = game.macros.getName("Resolve Take A Drink");
+  await playMacro.execute(game.user.character.name, game.user.id);
 }
-
-if (args.length > 1) {
-  drinkDiscardName = args[1];
-} else {
-  drinkDiscardName = `${game.user.character.name} ${drinkDeckBaseName} ${discardDeckSuffix}`;
-}
-
-const playMacro = game.macros.getName("Resolve Take A Drink");
-await playMacro.execute(game.user.character.name, game.user.id);
-
