@@ -1,5 +1,5 @@
 /**
- * Create the Game Decks, including Decks for Actors that have Owners.
+ * Create the Game Decks, including Decks for Characters that have Owners.
  */
 // createGameDecks()
 // Macro Name: Create Game Decks
@@ -16,15 +16,15 @@ const innDiscardName = `${gameName} ${drinkDeckBaseName} ${discardDeckSuffix}`;
 
 
 /**
- * Create a Cards Folder with the Actor's Name, if it doesn't already exist.
- * @param {string}     actorName  The name of the actor with which the folder will be named.
+ * Create a Cards Folder with the Character's Name, if it doesn't already exist.
+ * @param {string}     characterName  The name of the character with which the folder will be named.
  * @return {string}    The id of the referenced Cards folder.
  */
-async function createActorCardsFolder(actorName) {
-  console.log(`[${gameName}] Creating folder for ${actorName}.`)
-  let existingFolder = await game.cards.directory.folders.filter(d=>d.name === actorName);
+async function createCharacterCardsFolder(characterName) {
+  console.log(`[${gameName}] Creating folder for ${characterName}.`)
+  let existingFolder = await game.cards.directory.folders.filter(d=>d.name === characterName);
   if (existingFolder.length === 0) {
-    let newFolder = await Folder.create({name: actorName, type: "Cards", description: "Character cards"});
+    let newFolder = await Folder.create({name: characterName, type: "Cards", description: "Character cards"});
     console.log(newFolder.id);
     return newFolder.id;
   } else {
@@ -73,7 +73,7 @@ allPlayers.forEach(async function(p){
   const drinkDeckName = p.character.name + ' ' + drinkDeckBaseName + ' ' + deckSuffix;
   const drinkDiscardDeckName = p.character.name + ' ' + drinkDeckBaseName + ' ' + discardDeckSuffix;
   const playerId = p.id;
-  const folderId = await createActorCardsFolder(p.character.name);
+  const folderId = await createCharacterCardsFolder(p.character.name);
 
   if (folderId != '') {
     await createCardStack(mainDeckName, "pile", folderId, playerId, 1);
