@@ -19,71 +19,66 @@ console.log(`${gameName} | Shuffle Drinks`)
 
 let calledMacro = null;
 
+const deckToShuffle = `${gameName} ${drinkDeckBaseName} ${deckSuffix}`;
+const discardDeckName = `${gameName} ${drinkDeckBaseName} ${discardDeckSuffix}`;
+let doTheShuffle = false;
+let chatText = '';
 
-if (actor) {
-  const deckToShuffle = `${gameName} ${drinkDeckBaseName} ${deckSuffix}`;
-  const discardDeckName = `${gameName} ${drinkDeckBaseName} ${discardDeckSuffix}`;
-  let doTheShuffle = false;
-  let chatText = '';
+let dialogContent = `
+    <div>Shuffle Deck</div>
+    <form>
+      <div class="form-group">
+        <input type="checkbox" id="collect-discards" name="collect-discards">
+        <label for="collect-discards">Collect Inn Discards</label><br>
+      </div>
+      <div class="form-group">
+        <input type="checkbox" id="collect-character-discards" name="collect-character-discards">
+        <label for="collect-character-discards">Collect All Character Drink Discards</label><br>
+      </div>
+    </form>`;
 
-  let dialogContent = `
-      <div>Shuffle Deck</div>
-      <form>
-        <div class="form-group">
-          <input type="checkbox" id="collect-discards" name="collect-discards">
-          <label for="collect-discards">Collect Inn Discards</label><br>
-        </div>
-        <div class="form-group">
-          <input type="checkbox" id="collect-actor-discards" name="collect-actor-discards">
-          <label for="collect-actor-discards">Collect All Character Drink Discards</label><br>
-        </div>
-      </form>`;
-
-  new Dialog({
-    title: `Shuffle ${deckToShuffle}`,
-    content: dialogContent,
-    buttons: {
-      play: {
-        icon: "<i class='fas fa-check'></i>",
-        label: `Shuffle!`,
-        callback: () => doTheShuffle = true
-      },
-      cancel: {
-        icon: "<i class='fas fa-times'></i>",
-        label: `Cancel`
-      },
+new Dialog({
+  title: `Shuffle ${deckToShuffle}`,
+  content: dialogContent,
+  buttons: {
+    play: {
+      icon: "<i class='fas fa-check'></i>",
+      label: `Shuffle!`,
+      callback: () => doTheShuffle = true
     },
-    default: "cancel",
-    close: html => {
-      if (doTheShuffle) {
-        let collectGlobalDiscards = html.find('[name="collect-discards"]')[0].checked;
-        let collectActorDiscards = html.find('[name="collect-actor-discards"]')[0].checked;
-        if (collectGlobalDiscards) {
-          chatText = chatText + `<div>${actor.name} collected the ${discardDeckName}s.</div>`
-          console.log(`[${gameName}] Collecting discards from ${discardDeckName} for ${deckToShuffle}`);
+    cancel: {
+      icon: "<i class='fas fa-times'></i>",
+      label: `Cancel`
+    },
+  },
+  default: "cancel",
+  close: html => {
+    if (doTheShuffle) {
+      let collectGlobalDiscards = html.find('[name="collect-discards"]')[0].checked;
+      let collectCharacterDiscards = html.find('[name="collect-character-discards"]')[0].checked;
+      if (collectGlobalDiscards) {
+        chatText = chatText + `<div>${game.user.character.name} collected the ${discardDeckName}s.</div>`
+        console.log(`[${gameName}] Collecting discards from ${discardDeckName} for ${deckToShuffle}`);
+        calledMacro = game.macros.getName("Collect Discards");
+        calledMacro.execute(deckToShuffle,discardDeckName);
+      }
+      if (collectCharacterDiscards) {
+        let allPlayers = game.users.filter(d=>d.hasPlayerOwner === true);
+        chatText = chatText + `<div>${game.user.character.name} collected all the player drink discards.</div>`
+        allPlayers.forEach(async function(p){
+          const characterDrinkDiscard = p.character.name + ' ' + drinkDeckBaseName + ' ' + discardDeckSuffix;
+          console.log(`[${gameName}] Collecting discards from ${characterDrinkDiscard} for ${deckToShuffle}`);
           calledMacro = game.macros.getName("Collect Discards");
-          calledMacro.execute(deckToShuffle,discardDeckName);
-        }
-        if (collectActorDiscards) {
-          let allPlayers = game.users.filter(d=>d.hasPlayerOwner === true);
-          chatText = chatText + `<div>${actor.name} collected all the player drink discards.</div>`
-          allPlayers.forEach(async function(p){
-            const actorDrinkDiscard = p.character.name + ' ' + drinkDeckBaseName + ' ' + discardDeckSuffix;
-            console.log(`[${gameName}] Collecting discards from ${actorDrinkDiscard} for ${deckToShuffle}`);
-            calledMacro = game.macros.getName("Collect Discards");
-            await calledMacro.execute(deckToShuffle,actorDrinkDiscard);
-          });
-        }
-        calledMacro = game.macros.getName(shuffleDeckMacro);
-        calledMacro.execute(deckToShuffle, true);
-        console.log(deckToShuffle + "has been shuffled.");
-        ChatMessage.create({
-          user: game.user,
-          content: chatText + `<div>${actor.name} shuffled ${deckToShuffle}.</div>`,
+          await calledMacro.execute(deckToShuffle,characterDrinkDiscard);
         });
       }
+      calledMacro = game.macros.getName(shuffleDeckMacro);
+      calledMacro.execute(deckToShuffle, true);
+      console.log(deckToShuffle + "has been shuffled.");
+      ChatMessage.create({
+        user: game.user,
+        content: chatText + `<div>${game.user.character.name} shuffled ${deckToShuffle}.</div>`,
+      });
     }
-  }).render(true);
-} else {
-  console.log(`[${gameName}] Attempt to call macro with no actor!`);
-}
+  }
+}).render(true);

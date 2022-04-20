@@ -1,7 +1,7 @@
 /**
- * Plays the top card from the actor's drink pile into the actor's drink discard pile.
- * @param {string}      personalDrinkDeckName   (Optional) The name of the actor's drink pile to draw from.
- * @param {string}      personalDrinkDeckName   (Optional) The name of the actor's discard pile to send to.
+ * Plays the top card from the character's drink pile into the character's drink discard pile.
+ * @param {string}      personalDrinkDeckName   (Optional) The name of the character's drink pile to draw from.
+ * @param {string}      personalDrinkDeckName   (Optional) The name of the character's discard pile to send to.
  */
 // takeADrink()
 // Macro Name: Take A Drink
@@ -16,24 +16,21 @@ const deckSuffix = 'Deck';
 
 console.log(`${gameName} | Take a Drink`);
 
+let personalDrinkDeckName = "";
+let drinkDiscardName = "";
 
-// Only do something if there's an actor clicking.
-if (actor) {
-  let personalDrinkDeckName = "";
-  let drinkDiscardName = "";
-
-  if (args.length > 0) {
-    personalDrinkDeckName = args[0];
-  } else {
-    personalDrinkDeckName = `${actor.name} ${drinkDeckBaseName} ${deckSuffix}`;
-  }
-
-  if (args.length > 1) {
-    drinkDiscardName = args[1];
-  } else {
-    drinkDiscardName = `${actor.name} ${drinkDeckBaseName} ${discardDeckSuffix}`;
-  }
-
-  const playMacro = game.macros.getName("Resolve Take A Drink");
-  await playMacro.execute(actor.name, game.user.id);
+if (args.length > 0) {
+  personalDrinkDeckName = args[0];
+} else {
+  personalDrinkDeckName = `${game.user.character.name} ${drinkDeckBaseName} ${deckSuffix}`;
 }
+
+if (args.length > 1) {
+  drinkDiscardName = args[1];
+} else {
+  drinkDiscardName = `${game.user.character.name} ${drinkDeckBaseName} ${discardDeckSuffix}`;
+}
+
+const playMacro = game.macros.getName("Resolve Take A Drink");
+await playMacro.execute(game.user.character.name, game.user.id);
+

@@ -51,15 +51,15 @@ Create the following Macros, keeping Names as such (folder structure is optional
    - - Run All Inits: init/runAllInits.js
    - lib (Folder)
    - - Collect Discards: lib/collectDiscards.js
-   - - Deal Card As Actor: lib/dealCardAsActor.js
+   - - Deal Card As Character: lib/dealCardAsCharacter.js
    - - Resolve Collect Pot: lib/resolveCollectPot.js
    - - Resolve Pay Gold: lib/resolvePayGold.js
    - - Resolve Take A Drink: lib/resolveTakeADrink.js
    - - Shuffle Deck: lib/shuffleDeck.js
-   - - Update Actor Stat: lib/updateActorStat.js
+   - - Update Character Stat: lib/updateCharacterStat.js
    - - Update Tile Image: lib/updateTileImage.js
 
-Once the initial setup is created, you can create a scene.  Note that all actors must have a user associated with them before running the init macros.  These initialization macros can be run in any order, or the **Run All Inits** macro will run them in succession.  The next step is to bring your actors onto the scene and import the decks.  After the decks are imported, it is easiest to copy them and rename them as noted above, allowing the proper ownership.
+Once the initial setup is created, you can create a scene.  Note that all characters must have a user associated with them before running the init macros.  These initialization macros can be run in any order, or the **Run All Inits** macro will run them in succession.  The next step is to bring your characters onto the scene and import the decks.  After the decks are imported, it is easiest to copy them and rename them as noted above, allowing the proper ownership.
 
 # Notes
 
