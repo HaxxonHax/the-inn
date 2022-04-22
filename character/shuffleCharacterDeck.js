@@ -1,6 +1,10 @@
-// shuffleCharacterDeck();
-//
-//    example: shuffleCharacterDeck();
+/**
+ * Shuffle the character's main deck.
+ */
+// shuffleCharacterDeck()
+// Macro Name: Shuffle Character Deck
+// Run As GM: false
+// Has Widget: true
 
 if (game.paused !== true && typeof game.user.character !== 'undefined') {
   const gameName = "The Inn"
