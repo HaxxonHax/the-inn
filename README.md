@@ -1,6 +1,6 @@
 # The Inn
 
-The Inn is a set of macros and resources for Foundry based off Slugfest Games's great game Red Dragon Inn.  It uses a more simplistic system of cards than Red Dragon Inn.  If you would like to extend this game, you will need to purchase a copy of Red Dragon Inn and create the cards you wish to play with.
+The Inn is a set of macros and resources for [Foundry VTT](https://foundryvtt.com/) based off Slugfest Games's great game [Red Dragon Inn](https://slugfestgames.com/).  It uses a more simplistic system of cards than Red Dragon Inn.  If you would like to extend this game, you will need to purchase a copy of Red Dragon Inn and create the cards you wish to play with.
 
 
 # Why
@@ -8,7 +8,16 @@ The Inn is a set of macros and resources for Foundry based off Slugfest Games's 
 Why create this?  First, my friends and I love playing Red Dragon Inn, but we don't live near each other anymore and some don't have PCs that can run most tabletop simulation software (some only have tablets).  Second, I enjoy programming challenges and Foundry VTT provides an API that allowed me to challenge myself to create a game that can be played adjacent to and within our normal RPG games.
 
 
-# Foundry Game Structure
+# Foundry VTT Requirements
+
+The following modules will need to be installed for your world:
+
+- [Advanced Macros](https://foundryvtt.com/packages/advanced-macros)
+- [Monk's Active Tile Triggers](https://foundryvtt.com/packages/monks-active-tiles)
+- [Tagger](https://foundryvtt.com/packages/tagger)
+
+
+# Card Piles Structure in Foundry VTT
 
 The card piles can be created using the macros in the `init` macro folder (see **Setup** below).  None of the card stacks will use the "Deck" type of card stack.  The "Deck" type works well in single-deck games, but when dealing from one main deck to another similar main deck, "dealing" can be confusing.  The following will have the "Pile" type of card stacks:
 
@@ -36,11 +45,12 @@ The default ownership should be set to "none", with the exception of the Inn Dri
 
 # Setup
 
-Create the following Macros, keeping Names as such (folder structure is optional, but helps to keep organized):
+Before creating the macros and tiles, install and enable the required modules (see Requirements).  Create the following Macros, keeping Names as such (folder structure is optional, but helps to keep organized):
 
 - The Inn (Folder)
   - character (Folder)
-    - Draw Cards: character/drawACard.js
+    - Draw Cards: character/drawCards.js
+    - End Turn: character/endTurn.js
     - Play A Card: character/playACard.js
     - Shuffle Character Deck: character/shuffleCharacterDeck.js
     - Update My Stats: character/updateMyStats.js
@@ -69,10 +79,10 @@ Create the following Macros, keeping Names as such (folder structure is optional
     - Update Character Stat: lib/updateCharacterStat.js
     - Update Tile Image: lib/updateTileImage.js
 
-Once the initial setup is created, you will need to transfer the files in the `images/buttons` subfolder of this repository to your **Foundry Data** directory, under the subfolder structure `Tiles/buttons`.  For example, on my Linux system, these reside in `/home/foundryvtt/foundrydata/Data/Tiles/buttons`.  You can now create a scene that will act as the game board.  Ensure all players have a  associated with them before running the init macros.  These initialization macros can be run in any order, or the **Run All Inits** macro will run them in succession.  The next step is to bring your characters onto the scene and import the decks.  After the decks are imported, it is easiest to copy them and rename them as noted above, allowing the proper ownership.
+Once the initial setup is created, you will need to transfer the files in the `Tiles/buttons` subfolder of this repository to your **Foundry Data** directory, under the subfolder structure `Tiles/buttons`.  For example, on my Linux system, these reside in `/home/foundryvtt/foundrydata/Data/Tiles/buttons`.  You can now create a scene that will act as the game board.  Ensure all players have a  associated with them before running the init macros.  These initialization macros can be run in any order, or the **Run All Inits** macro will run them in succession.  The next step is to bring your characters onto the scene and import the decks.  After the decks are imported, it is easiest to copy them and rename them as noted above, allowing the proper ownership.
 
 1. Create macros.
-2. Upload button images (`images/buttons` -> `Tiles/buttons`).
+2. Upload button images (`Tiles/buttons` -> `Tiles/buttons`).
 3. Assign characters to players.
 4. Create game board scene.
 5. Run init macros.
