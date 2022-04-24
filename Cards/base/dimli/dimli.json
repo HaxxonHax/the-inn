@@ -7,7 +7,7 @@
   "cards": [
     {
       "name": "Gambling? I'm in!",
-      "type": "baase",
+      "type": "base",
       "description": "Gambling? I'm in!",
       "data": {
         "type": "Action - Gambling"
@@ -35,7 +35,7 @@
     },
     {
       "name": "Gambling? I'm in!",
-      "type": "baase",
+      "type": "base",
       "description": "Gambling? I'm in!",
       "data": {
         "type": "Action - Gambling"
@@ -63,7 +63,7 @@
     },
     {
       "name": "Gambling? I'm in!",
-      "type": "baase",
+      "type": "base",
       "description": "Gambling? I'm in!",
       "data": {
         "type": "Action - Gambling"
@@ -91,7 +91,7 @@
     },
     {
       "name": "Gambling? I'm in!",
-      "type": "baase",
+      "type": "base",
       "description": "Gambling? I'm in!",
       "data": {
         "type": "Action - Gambling"
@@ -119,7 +119,7 @@
     },
     {
       "name": "Gambling? I'm in!",
-      "type": "baase",
+      "type": "base",
       "description": "Gambling? I'm in!",
       "data": {
         "type": "Action - Gambling"
@@ -147,7 +147,7 @@
     },
     {
       "name": "Gambling? I'm in!",
-      "type": "baase",
+      "type": "base",
       "description": "Gambling? I'm in!",
       "data": {
         "type": "Action - Gambling"
