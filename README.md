@@ -45,7 +45,7 @@ The default ownership should be set to "none", with the exception of the Inn Dri
 
 # Setup
 
-Before creating the macros and tiles, install and enable the required modules (see Requirements).  Create the following Macros, keeping Names as such (folder structure is optional, but helps to keep organized):
+Before creating the macros and tiles, install and enable the required modules (see Requirements).  The following macros can be pulled in from the compendium in the `packs` directory.  You can also manually create them from the folders in this repo, keeping Names as such (folder structure is optional, but helps to keep organized):
 
 - The Inn (Folder)
   - character (Folder)
