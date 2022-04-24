@@ -17,7 +17,7 @@
       "back": {
         "name": "Gerki the Sneak",
         "text": "Gerki the Sneak",
-        "image": "Cards/base/gerki/gerki-the-sneak-back.png"
+        "img": "Cards/base/gerki/gerki-the-sneak-back.png"
       },
       "faces": [
         {
@@ -45,7 +45,7 @@
       "back": {
         "name": "Gerki the Sneak",
         "text": "Gerki the Sneak",
-        "image": "Cards/base/gerki/gerki-the-sneak-back.png"
+        "img": "Cards/base/gerki/gerki-the-sneak-back.png"
       },
       "faces": [
         {
@@ -73,7 +73,7 @@
       "back": {
         "name": "Gerki the Sneak",
         "text": "Gerki the Sneak",
-        "image": "Cards/base/gerki/gerki-the-sneak-back.png"
+        "img": "Cards/base/gerki/gerki-the-sneak-back.png"
       },
       "faces": [
         {
@@ -101,7 +101,7 @@
       "back": {
         "name": "Gerki the Sneak",
         "text": "Gerki the Sneak",
-        "image": "Cards/base/gerki/gerki-the-sneak-back.png"
+        "img": "Cards/base/gerki/gerki-the-sneak-back.png"
       },
       "faces": [
         {
@@ -129,7 +129,7 @@
       "back": {
         "name": "Gerki the Sneak",
         "text": "Gerki the Sneak",
-        "image": "Cards/base/gerki/gerki-the-sneak-back.png"
+        "img": "Cards/base/gerki/gerki-the-sneak-back.png"
       },
       "faces": [
         {
@@ -157,7 +157,7 @@
       "back": {
         "name": "Gerki the Sneak",
         "text": "Gerki the Sneak",
-        "image": "Cards/base/gerki/gerki-the-sneak-back.png"
+        "img": "Cards/base/gerki/gerki-the-sneak-back.png"
       },
       "faces": [
         {
@@ -185,7 +185,7 @@
       "back": {
         "name": "Gerki the Sneak",
         "text": "Gerki the Sneak",
-        "image": "Cards/base/gerki/gerki-the-sneak-back.png"
+        "img": "Cards/base/gerki/gerki-the-sneak-back.png"
       },
       "faces": [
         {
@@ -213,7 +213,7 @@
       "back": {
         "name": "Gerki the Sneak",
         "text": "Gerki the Sneak",
-        "image": "Cards/base/gerki/gerki-the-sneak-back.png"
+        "img": "Cards/base/gerki/gerki-the-sneak-back.png"
       },
       "faces": [
         {
@@ -241,7 +241,7 @@
       "back": {
         "name": "Gerki the Sneak",
         "text": "Gerki the Sneak",
-        "image": "Cards/base/gerki/gerki-the-sneak-back.png"
+        "img": "Cards/base/gerki/gerki-the-sneak-back.png"
       },
       "faces": [
         {
@@ -269,7 +269,7 @@
       "back": {
         "name": "Gerki the Sneak",
         "text": "Gerki the Sneak",
-        "image": "Cards/base/gerki/gerki-the-sneak-back.png"
+        "img": "Cards/base/gerki/gerki-the-sneak-back.png"
       },
       "faces": [
         {
@@ -297,7 +297,7 @@
       "back": {
         "name": "Gerki the Sneak",
         "text": "Gerki the Sneak",
-        "image": "Cards/base/gerki/gerki-the-sneak-back.png"
+        "img": "Cards/base/gerki/gerki-the-sneak-back.png"
       },
       "faces": [
         {
@@ -325,7 +325,7 @@
       "back": {
         "name": "Gerki the Sneak",
         "text": "Gerki the Sneak",
-        "image": "Cards/base/gerki/gerki-the-sneak-back.png"
+        "img": "Cards/base/gerki/gerki-the-sneak-back.png"
       },
       "faces": [
         {
@@ -353,7 +353,7 @@
       "back": {
         "name": "Gerki the Sneak",
         "text": "Gerki the Sneak",
-        "image": "Cards/base/gerki/gerki-the-sneak-back.png"
+        "img": "Cards/base/gerki/gerki-the-sneak-back.png"
       },
       "faces": [
         {
@@ -381,7 +381,7 @@
       "back": {
         "name": "Gerki the Sneak",
         "text": "Gerki the Sneak",
-        "image": "Cards/base/gerki/gerki-the-sneak-back.png"
+        "img": "Cards/base/gerki/gerki-the-sneak-back.png"
       },
       "faces": [
         {
@@ -409,7 +409,7 @@
       "back": {
         "name": "Gerki the Sneak",
         "text": "Gerki the Sneak",
-        "image": "Cards/base/gerki/gerki-the-sneak-back.png"
+        "img": "Cards/base/gerki/gerki-the-sneak-back.png"
       },
       "faces": [
         {
@@ -437,7 +437,7 @@
       "back": {
         "name": "Gerki the Sneak",
         "text": "Gerki the Sneak",
-        "image": "Cards/base/gerki/gerki-the-sneak-back.png"
+        "img": "Cards/base/gerki/gerki-the-sneak-back.png"
       },
       "faces": [
         {
@@ -465,7 +465,7 @@
       "back": {
         "name": "Gerki the Sneak",
         "text": "Gerki the Sneak",
-        "image": "Cards/base/gerki/gerki-the-sneak-back.png"
+        "img": "Cards/base/gerki/gerki-the-sneak-back.png"
       },
       "faces": [
         {
@@ -493,7 +493,7 @@
       "back": {
         "name": "Gerki the Sneak",
         "text": "Gerki the Sneak",
-        "image": "Cards/base/gerki/gerki-the-sneak-back.png"
+        "img": "Cards/base/gerki/gerki-the-sneak-back.png"
       },
       "faces": [
         {
@@ -521,7 +521,7 @@
       "back": {
         "name": "Gerki the Sneak",
         "text": "Gerki the Sneak",
-        "image": "Cards/base/gerki/gerki-the-sneak-back.png"
+        "img": "Cards/base/gerki/gerki-the-sneak-back.png"
       },
       "faces": [
         {
@@ -549,7 +549,7 @@
       "back": {
         "name": "Gerki the Sneak",
         "text": "Gerki the Sneak",
-        "image": "Cards/base/gerki/gerki-the-sneak-back.png"
+        "img": "Cards/base/gerki/gerki-the-sneak-back.png"
       },
       "faces": [
         {
@@ -577,7 +577,7 @@
       "back": {
         "name": "Gerki the Sneak",
         "text": "Gerki the Sneak",
-        "image": "Cards/base/gerki/gerki-the-sneak-back.png"
+        "img": "Cards/base/gerki/gerki-the-sneak-back.png"
       },
       "faces": [
         {
@@ -605,7 +605,7 @@
       "back": {
         "name": "Gerki the Sneak",
         "text": "Gerki the Sneak",
-        "image": "Cards/base/gerki/gerki-the-sneak-back.png"
+        "img": "Cards/base/gerki/gerki-the-sneak-back.png"
       },
       "faces": [
         {
@@ -633,7 +633,7 @@
       "back": {
         "name": "Gerki the Sneak",
         "text": "Gerki the Sneak",
-        "image": "Cards/base/gerki/gerki-the-sneak-back.png"
+        "img": "Cards/base/gerki/gerki-the-sneak-back.png"
       },
       "faces": [
         {
@@ -661,7 +661,7 @@
       "back": {
         "name": "Gerki the Sneak",
         "text": "Gerki the Sneak",
-        "image": "Cards/base/gerki/gerki-the-sneak-back.png"
+        "img": "Cards/base/gerki/gerki-the-sneak-back.png"
       },
       "faces": [
         {
@@ -689,7 +689,7 @@
       "back": {
         "name": "Gerki the Sneak",
         "text": "Gerki the Sneak",
-        "image": "Cards/base/gerki/gerki-the-sneak-back.png"
+        "img": "Cards/base/gerki/gerki-the-sneak-back.png"
       },
       "faces": [
         {
@@ -717,7 +717,7 @@
       "back": {
         "name": "Gerki the Sneak",
         "text": "Gerki the Sneak",
-        "image": "Cards/base/gerki/gerki-the-sneak-back.png"
+        "img": "Cards/base/gerki/gerki-the-sneak-back.png"
       },
       "faces": [
         {
@@ -745,7 +745,7 @@
       "back": {
         "name": "Gerki the Sneak",
         "text": "Gerki the Sneak",
-        "image": "Cards/base/gerki/gerki-the-sneak-back.png"
+        "img": "Cards/base/gerki/gerki-the-sneak-back.png"
       },
       "faces": [
         {
@@ -773,7 +773,7 @@
       "back": {
         "name": "Gerki the Sneak",
         "text": "Gerki the Sneak",
-        "image": "Cards/base/gerki/gerki-the-sneak-back.png"
+        "img": "Cards/base/gerki/gerki-the-sneak-back.png"
       },
       "faces": [
         {
@@ -801,7 +801,7 @@
       "back": {
         "name": "Gerki the Sneak",
         "text": "Gerki the Sneak",
-        "image": "Cards/base/gerki/gerki-the-sneak-back.png"
+        "img": "Cards/base/gerki/gerki-the-sneak-back.png"
       },
       "faces": [
         {
@@ -829,7 +829,7 @@
       "back": {
         "name": "Gerki the Sneak",
         "text": "Gerki the Sneak",
-        "image": "Cards/base/gerki/gerki-the-sneak-back.png"
+        "img": "Cards/base/gerki/gerki-the-sneak-back.png"
       },
       "faces": [
         {
@@ -857,7 +857,7 @@
       "back": {
         "name": "Gerki the Sneak",
         "text": "Gerki the Sneak",
-        "image": "Cards/base/gerki/gerki-the-sneak-back.png"
+        "img": "Cards/base/gerki/gerki-the-sneak-back.png"
       },
       "faces": [
         {
@@ -885,7 +885,7 @@
       "back": {
         "name": "Gerki the Sneak",
         "text": "Gerki the Sneak",
-        "image": "Cards/base/gerki/gerki-the-sneak-back.png"
+        "img": "Cards/base/gerki/gerki-the-sneak-back.png"
       },
       "faces": [
         {
@@ -913,7 +913,7 @@
       "back": {
         "name": "Gerki the Sneak",
         "text": "Gerki the Sneak",
-        "image": "Cards/base/gerki/gerki-the-sneak-back.png"
+        "img": "Cards/base/gerki/gerki-the-sneak-back.png"
       },
       "faces": [
         {
@@ -941,7 +941,7 @@
       "back": {
         "name": "Gerki the Sneak",
         "text": "Gerki the Sneak",
-        "image": "Cards/base/gerki/gerki-the-sneak-back.png"
+        "img": "Cards/base/gerki/gerki-the-sneak-back.png"
       },
       "faces": [
         {
@@ -969,7 +969,7 @@
       "back": {
         "name": "Gerki the Sneak",
         "text": "Gerki the Sneak",
-        "image": "Cards/base/gerki/gerki-the-sneak-back.png"
+        "img": "Cards/base/gerki/gerki-the-sneak-back.png"
       },
       "faces": [
         {
@@ -997,7 +997,7 @@
       "back": {
         "name": "Gerki the Sneak",
         "text": "Gerki the Sneak",
-        "image": "Cards/base/gerki/gerki-the-sneak-back.png"
+        "img": "Cards/base/gerki/gerki-the-sneak-back.png"
       },
       "faces": [
         {
@@ -1025,7 +1025,7 @@
       "back": {
         "name": "Gerki the Sneak",
         "text": "Gerki the Sneak",
-        "image": "Cards/base/gerki/gerki-the-sneak-back.png"
+        "img": "Cards/base/gerki/gerki-the-sneak-back.png"
       },
       "faces": [
         {
@@ -1053,7 +1053,7 @@
       "back": {
         "name": "Gerki the Sneak",
         "text": "Gerki the Sneak",
-        "image": "Cards/base/gerki/gerki-the-sneak-back.png"
+        "img": "Cards/base/gerki/gerki-the-sneak-back.png"
       },
       "faces": [
         {
@@ -1081,7 +1081,7 @@
       "back": {
         "name": "Gerki the Sneak",
         "text": "Gerki the Sneak",
-        "image": "Cards/base/gerki/gerki-the-sneak-back.png"
+        "img": "Cards/base/gerki/gerki-the-sneak-back.png"
       },
       "faces": [
         {
@@ -1109,7 +1109,7 @@
       "back": {
         "name": "Gerki the Sneak",
         "text": "Gerki the Sneak",
-        "image": "Cards/base/gerki/gerki-the-sneak-back.png"
+        "img": "Cards/base/gerki/gerki-the-sneak-back.png"
       },
       "faces": [
         {
