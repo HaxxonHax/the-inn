@@ -1,0 +1,1129 @@
+{
+  "name": "Zot the Wizard",
+  "type": "pile",
+  "description": "",
+  "img": "Cards/base/zot/zot-the-wizard-back.png",
+  "data": {},
+  "cards": [
+    {
+      "name": "Gambling? I'm in!",
+      "type": "base",
+      "description": "Gambling? I'm in!",
+      "data": {
+        "type": "Action - Gambling"
+      },
+      "suit": "",
+      "value": 0,
+      "back": {
+        "name": "Zot the Wizard",
+        "text": "Zot the Wizard",
+        "image": "Cards/base/zot/zot-the-wizard-back.png"
+      },
+      "faces": [
+        {
+          "name": "Gambling? I'm in!",
+          "img": "Cards/base/zot/gambling-im-in.png",
+          "text": "<div class=\"cardtext\">Start a Round of Gambling (Each player, including you, must ante.)</div><div class=\"cardtext\">-OR-</div><div class=\"cardtext\">Take control of a Round of Gambling.</div>"
+        }
+      ],
+      "face": 0,
+      "drawn": false,
+      "width": 2,
+      "height": 3,
+      "rotation": 0,
+      "flags": {}
+    },
+    {
+      "name": "Gambling? I'm in!",
+      "type": "base",
+      "description": "Gambling? I'm in!",
+      "data": {
+        "type": "Action - Gambling"
+      },
+      "suit": "",
+      "value": 0,
+      "back": {
+        "name": "Zot the Wizard",
+        "text": "Zot the Wizard",
+        "image": "Cards/base/zot/zot-the-wizard-back.png"
+      },
+      "faces": [
+        {
+          "name": "Gambling? I'm in!",
+          "img": "Cards/base/zot/gambling-im-in.png",
+          "text": "<div class=\"cardtext\">Start a Round of Gambling (Each player, including you, must ante.)</div><div class=\"cardtext\">-OR-</div><div class=\"cardtext\">Take control of a Round of Gambling.</div>"
+        }
+      ],
+      "face": 0,
+      "drawn": false,
+      "width": 2,
+      "height": 3,
+      "rotation": 0,
+      "flags": {}
+    },
+    {
+      "name": "Gambling? I'm in!",
+      "type": "base",
+      "description": "Gambling? I'm in!",
+      "data": {
+        "type": "Action - Gambling"
+      },
+      "suit": "",
+      "value": 0,
+      "back": {
+        "name": "Zot the Wizard",
+        "text": "Zot the Wizard",
+        "image": "Cards/base/zot/zot-the-wizard-back.png"
+      },
+      "faces": [
+        {
+          "name": "Gambling? I'm in!",
+          "img": "Cards/base/zot/gambling-im-in.png",
+          "text": "<div class=\"cardtext\">Start a Round of Gambling (Each player, including you, must ante.)</div><div class=\"cardtext\">-OR-</div><div class=\"cardtext\">Take control of a Round of Gambling.</div>"
+        }
+      ],
+      "face": 0,
+      "drawn": false,
+      "width": 2,
+      "height": 3,
+      "rotation": 0,
+      "flags": {}
+    },
+    {
+      "name": "Gambling? I'm in!",
+      "type": "base",
+      "description": "Gambling? I'm in!",
+      "data": {
+        "type": "Action - Gambling"
+      },
+      "suit": "",
+      "value": 0,
+      "back": {
+        "name": "Zot the Wizard",
+        "text": "Zot the Wizard",
+        "image": "Cards/base/zot/zot-the-wizard-back.png"
+      },
+      "faces": [
+        {
+          "name": "Gambling? I'm in!",
+          "img": "Cards/base/zot/gambling-im-in.png",
+          "text": "<div class=\"cardtext\">Start a Round of Gambling (Each player, including you, must ante.)</div><div class=\"cardtext\">-OR-</div><div class=\"cardtext\">Take control of a Round of Gambling.</div>"
+        }
+      ],
+      "face": 0,
+      "drawn": false,
+      "width": 2,
+      "height": 3,
+      "rotation": 0,
+      "flags": {}
+    },
+    {
+      "name": "Gambling? I'm in!",
+      "type": "base",
+      "description": "Gambling? I'm in!",
+      "data": {
+        "type": "Action - Gambling"
+      },
+      "suit": "",
+      "value": 0,
+      "back": {
+        "name": "Zot the Wizard",
+        "text": "Zot the Wizard",
+        "image": "Cards/base/zot/zot-the-wizard-back.png"
+      },
+      "faces": [
+        {
+          "name": "Gambling? I'm in!",
+          "img": "Cards/base/zot/gambling-im-in.png",
+          "text": "<div class=\"cardtext\">Start a Round of Gambling (Each player, including you, must ante.)</div><div class=\"cardtext\">-OR-</div><div class=\"cardtext\">Take control of a Round of Gambling.</div>"
+        }
+      ],
+      "face": 0,
+      "drawn": false,
+      "width": 2,
+      "height": 3,
+      "rotation": 0,
+      "flags": {}
+    },
+    {
+      "name": "Gambling? I'm in!",
+      "type": "base",
+      "description": "Gambling? I'm in!",
+      "data": {
+        "type": "Action - Gambling"
+      },
+      "suit": "",
+      "value": 0,
+      "back": {
+        "name": "Zot the Wizard",
+        "text": "Zot the Wizard",
+        "image": "Cards/base/zot/zot-the-wizard-back.png"
+      },
+      "faces": [
+        {
+          "name": "Gambling? I'm in!",
+          "img": "Cards/base/zot/gambling-im-in.png",
+          "text": "<div class=\"cardtext\">Start a Round of Gambling (Each player, including you, must ante.)</div><div class=\"cardtext\">-OR-</div><div class=\"cardtext\">Take control of a Round of Gambling.</div>"
+        }
+      ],
+      "face": 0,
+      "drawn": false,
+      "width": 2,
+      "height": 3,
+      "rotation": 0,
+      "flags": {}
+    },
+    {
+      "name": "I raise!",
+      "type": "base",
+      "description": "I raise!",
+      "data": {
+        "type": "Gambling"
+      },
+      "suit": "",
+      "value": 0,
+      "back": {
+        "name": "Zot the Wizard",
+        "text": "Zot the Wizard",
+        "image": "Cards/base/zot/zot-the-wizard-back.png"
+      },
+      "faces": [
+        {
+          "name": "I raise!",
+          "img": "Cards/base/zot/i-raise.png",
+          "text": "<div class=\"cardtext\">Take control of a Round of Gambling.</div><div class=\"cardtext\">Each player (including you) must ante again.</div>"
+        }
+      ],
+      "face": 0,
+      "drawn": false,
+      "width": 2,
+      "height": 3,
+      "rotation": 0,
+      "flags": {}
+    },
+    {
+      "name": "I raise!",
+      "type": "base",
+      "description": "I raise!",
+      "data": {
+        "type": "Gambling"
+      },
+      "suit": "",
+      "value": 0,
+      "back": {
+        "name": "Zot the Wizard",
+        "text": "Zot the Wizard",
+        "image": "Cards/base/zot/zot-the-wizard-back.png"
+      },
+      "faces": [
+        {
+          "name": "I raise!",
+          "img": "Cards/base/zot/i-raise.png",
+          "text": "<div class=\"cardtext\">Take control of a Round of Gambling.</div><div class=\"cardtext\">Each player (including you) must ante again.</div>"
+        }
+      ],
+      "face": 0,
+      "drawn": false,
+      "width": 2,
+      "height": 3,
+      "rotation": 0,
+      "flags": {}
+    },
+    {
+      "name": "Winning Hand!",
+      "type": "base",
+      "description": "Winning Hand!",
+      "data": {
+        "type": "Gambling"
+      },
+      "suit": "",
+      "value": 0,
+      "back": {
+        "name": "Zot the Wizard",
+        "text": "Zot the Wizard",
+        "image": "Cards/base/zot/zot-the-wizard-back.png"
+      },
+      "faces": [
+        {
+          "name": "Winning Hand!",
+          "img": "Cards/base/zot/winning-hand.png",
+          "text": "<div class=\"cardtext\">Take control of a Round of Gambling.</div><div class=\"cardtext\">The next card to take control must be a Cheating Card.</div>"
+        }
+      ],
+      "face": 0,
+      "drawn": false,
+      "width": 2,
+      "height": 3,
+      "rotation": 0,
+      "flags": {}
+    },
+    {
+      "name": "Winning Hand!",
+      "type": "base",
+      "description": "Winning Hand!",
+      "data": {
+        "type": "Gambling"
+      },
+      "suit": "",
+      "value": 0,
+      "back": {
+        "name": "Zot the Wizard",
+        "text": "Zot the Wizard",
+        "image": "Cards/base/zot/zot-the-wizard-back.png"
+      },
+      "faces": [
+        {
+          "name": "Winning Hand!",
+          "img": "Cards/base/zot/winning-hand.png",
+          "text": "<div class=\"cardtext\">Take control of a Round of Gambling.</div><div class=\"cardtext\">The next card to take control must be a Cheating Card.</div>"
+        }
+      ],
+      "face": 0,
+      "drawn": false,
+      "width": 2,
+      "height": 3,
+      "rotation": 0,
+      "flags": {}
+    },
+    {
+      "name": "Oh, I guess the Wench thought that was her tip...",
+      "type": "base",
+      "description": "Oh, I guess the Wench thought that was her tip...",
+      "data": {
+        "type": "Sometimes"
+      },
+      "suit": "",
+      "value": 0,
+      "back": {
+        "name": "Zot the Wizard",
+        "text": "Zot the Wizard",
+        "image": "Cards/base/zot/zot-the-wizard-back.png"
+      },
+      "faces": [
+        {
+          "name": "Oh, I guess the Wench thought that was her tip...",
+          "img": "Cards/base/zot/oh-i-guess-the-wench-thought-that-was-her-tip.png",
+          "text": "<div class=\"cardtext\">You may play this card at any time during a Round of Gambling, even if you have left the Round. You may not play this card if the Round has already ended. You may not play it in response to a card that would make players ante or would rend the Round when it resolves.</div><div class=\"cardtext\">The Round of Gambling ends immediately. All anted Gold goes to the Inn.</div>"
+        }
+      ],
+      "face": 0,
+      "drawn": false,
+      "width": 2,
+      "height": 3,
+      "rotation": 0,
+      "flags": {}
+    },
+    {
+      "name": "Pooky! Stop looking at everyone's cards!",
+      "type": "base",
+      "description": "Pooky! Stop looking at everyone's cards!",
+      "data": {
+        "type": "Cheating"
+      },
+      "suit": "",
+      "value": 0,
+      "back": {
+        "name": "Zot the Wizard",
+        "text": "Zot the Wizard",
+        "image": "Cards/base/zot/zot-the-wizard-back.png"
+      },
+      "faces": [
+        {
+          "name": "Pooky! Stop looking at everyone's cards!",
+          "img": "Cards/base/zot/pooky-stop-looking-at-everyones-cards.png",
+          "text": "<div class=\"cardtext\">Take control of a Round of Gambling.</div>"
+        }
+      ],
+      "face": 0,
+      "drawn": false,
+      "width": 2,
+      "height": 3,
+      "rotation": 0,
+      "flags": {}
+    },
+    {
+      "name": "What's that up your sleeve?",
+      "type": "base",
+      "description": "What's that up your sleeve?",
+      "data": {
+        "type": "Cheating"
+      },
+      "suit": "",
+      "value": 0,
+      "back": {
+        "name": "Zot the Wizard",
+        "text": "Zot the Wizard",
+        "image": "Cards/base/zot/zot-the-wizard-back.png"
+      },
+      "faces": [
+        {
+          "name": "What's that up your sleeve?",
+          "img": "Cards/base/zot/whats-that-up-your-sleeve.png",
+          "text": "<div class=\"cardtext\">Take control of a Round of Gambling.</div><div class=\"cardtext\">Pick a player and force them to leave the Round of Gambling.</div>"
+        }
+      ],
+      "face": 0,
+      "drawn": false,
+      "width": 2,
+      "height": 3,
+      "rotation": 0,
+      "flags": {}
+    },
+    {
+      "name": "Bad Pooky! Don't drink that!",
+      "type": "base",
+      "description": "Bad Pooky! Don't drink that!",
+      "data": {
+        "type": "Sometimes"
+      },
+      "suit": "",
+      "value": 0,
+      "back": {
+        "name": "Zot the Wizard",
+        "text": "Zot the Wizard",
+        "image": "Cards/base/zot/zot-the-wizard-back.png"
+      },
+      "faces": [
+        {
+          "name": "Bad Pooky! Don't drink that!",
+          "img": "Cards/base/zot/bad-pooky-dont-drink-that.png",
+          "text": "<div class=\"cardtext\">Ignore a Drink.</div><div class=\"cardtext\">(Reveal the Drink first!)</div>"
+        }
+      ],
+      "face": 0,
+      "drawn": false,
+      "width": 2,
+      "height": 3,
+      "rotation": 0,
+      "flags": {}
+    },
+    {
+      "name": "Look over there! It's the Lich King!",
+      "type": "base",
+      "description": "Look over there! It's the Lich King!",
+      "data": {
+        "type": "Cheating"
+      },
+      "suit": "",
+      "value": 0,
+      "back": {
+        "name": "Zot the Wizard",
+        "text": "Zot the Wizard",
+        "image": "Cards/base/zot/zot-the-wizard-back.png"
+      },
+      "faces": [
+        {
+          "name": "Look over there! It's the Lich King!",
+          "img": "Cards/base/zot/look-over-there-its-the-lich-king.png",
+          "text": "<div class=\"cardtext\">Take control of a Round of Gambling.</div>"
+        }
+      ],
+      "face": 0,
+      "drawn": false,
+      "width": 2,
+      "height": 3,
+      "rotation": 0,
+      "flags": {}
+    },
+    {
+      "name": "Teleport beverage!",
+      "type": "base",
+      "description": "Teleport beverage!",
+      "data": {
+        "type": "Sometimes"
+      },
+      "suit": "",
+      "value": 0,
+      "back": {
+        "name": "Zot the Wizard",
+        "text": "Zot the Wizard",
+        "image": "Cards/base/zot/zot-the-wizard-back.png"
+      },
+      "faces": [
+        {
+          "name": "Teleport beverage!",
+          "img": "Cards/base/zot/teleport-beverage.png",
+          "text": "<div class=\"cardtext\">Give a Drink you are about to drink to another player.</div><div class=\"cardtext\">(Reveal the Drink first!)</div>"
+        }
+      ],
+      "face": 0,
+      "drawn": false,
+      "width": 2,
+      "height": 3,
+      "rotation": 0,
+      "flags": {}
+    },
+    {
+      "name": "Oh, Barmaid! I think Pooky had an accident!",
+      "type": "base",
+      "description": "Oh, Barmaid! I think Pooky had an accident!",
+      "data": {
+        "type": "Sometimes"
+      },
+      "suit": "",
+      "value": 0,
+      "back": {
+        "name": "Zot the Wizard",
+        "text": "Zot the Wizard",
+        "image": "Cards/base/zot/zot-the-wizard-back.png"
+      },
+      "faces": [
+        {
+          "name": "Oh, Barmaid! I think Pooky had an accident!",
+          "img": "Cards/base/zot/oh-barmaid-i-think-pooky-had-an-accident.png",
+          "text": "<div class=\"cardtext\">You may play this card when you must ante. Instead of anteing, you leave the Round of Gambling.</div><div class=\"cardtext\">-OR-</div><div class=\"cardtext\">Ignore a Drink. (Reveal the Drink first!)</div><div class=\"cardtext\"><b>In either case, you must pay 1 Gold to the Inn for a towel to wipe up \"Pooky's accident\"!</div>"
+        }
+      ],
+      "face": 0,
+      "drawn": false,
+      "width": 2,
+      "height": 3,
+      "rotation": 0,
+      "flags": {}
+    },
+    {
+      "name": "I told you not to distract me!",
+      "type": "base",
+      "description": "I told you not to distract me!",
+      "data": {
+        "type": "Action"
+      },
+      "suit": "",
+      "value": 0,
+      "back": {
+        "name": "Zot the Wizard",
+        "text": "Zot the Wizard",
+        "image": "Cards/base/zot/zot-the-wizard-back.png"
+      },
+      "faces": [
+        {
+          "name": "I told you not to distract me!",
+          "img": "Cards/base/zot/i-told-you-not-to-distract-me.png",
+          "text": "<div class=\"cardtext\">Pick another player. They lose 2 Fortitude.</div>"
+        }
+      ],
+      "face": 0,
+      "drawn": false,
+      "width": 2,
+      "height": 3,
+      "rotation": 0,
+      "flags": {}
+    },
+    {
+      "name": "I told you not to distract me!",
+      "type": "base",
+      "description": "I told you not to distract me!",
+      "data": {
+        "type": "Action"
+      },
+      "suit": "",
+      "value": 0,
+      "back": {
+        "name": "Zot the Wizard",
+        "text": "Zot the Wizard",
+        "image": "Cards/base/zot/zot-the-wizard-back.png"
+      },
+      "faces": [
+        {
+          "name": "I told you not to distract me!",
+          "img": "Cards/base/zot/i-told-you-not-to-distract-me.png",
+          "text": "<div class=\"cardtext\">Pick another player. They lose 2 Fortitude.</div>"
+        }
+      ],
+      "face": 0,
+      "drawn": false,
+      "width": 2,
+      "height": 3,
+      "rotation": 0,
+      "flags": {}
+    },
+    {
+      "name": "Wench, bring some drinks for my friends!",
+      "type": "base",
+      "description": "Wench, bring some drinks for my friends!",
+      "data": {
+        "type": "Sometimes"
+      },
+      "suit": "",
+      "value": 0,
+      "back": {
+        "name": "Zot the Wizard",
+        "text": "Zot the Wizard",
+        "image": "Cards/base/zot/zot-the-wizard-back.png"
+      },
+      "faces": [
+        {
+          "name": "Wench, bring some drinks for my friends!",
+          "img": "Cards/base/zot/wench-bring-some-drinks-for-my-friends.png",
+          "text": "<div class=\"cardtext\">You may play this card during the Order a Drink Phase of your turn.</div><div class=\"cardtext\">Pay 1 Gold to the Inn. Order 2 additional Drinks. (Drinks you order may be placed on any other players' Drink Me! Piles.)</div>"
+        }
+      ],
+      "face": 0,
+      "drawn": false,
+      "width": 2,
+      "height": 3,
+      "rotation": 0,
+      "flags": {}
+    },
+    {
+      "name": "Wench, bring some drinks for my friends!",
+      "type": "base",
+      "description": "Wench, bring some drinks for my friends!",
+      "data": {
+        "type": "Sometimes"
+      },
+      "suit": "",
+      "value": 0,
+      "back": {
+        "name": "Zot the Wizard",
+        "text": "Zot the Wizard",
+        "image": "Cards/base/zot/zot-the-wizard-back.png"
+      },
+      "faces": [
+        {
+          "name": "Wench, bring some drinks for my friends!",
+          "img": "Cards/base/zot/wench-bring-some-drinks-for-my-friends.png",
+          "text": "<div class=\"cardtext\">You may play this card during the Order a Drink Phase of your turn.</div><div class=\"cardtext\">Pay 1 Gold to the Inn. Order 2 additional Drinks. (Drinks you order may be placed on any other players' Drink Me! Piles.)</div>"
+        }
+      ],
+      "face": 0,
+      "drawn": false,
+      "width": 2,
+      "height": 3,
+      "rotation": 0,
+      "flags": {}
+    },
+    {
+      "name": "The Wench thinks you should stop playing with the drinks.",
+      "type": "base",
+      "description": "The Wench thinks you should stop playing with the drinks.",
+      "data": {
+        "type": "Sometimes"
+      },
+      "suit": "",
+      "value": 0,
+      "back": {
+        "name": "Zot the Wizard",
+        "text": "Zot the Wizard",
+        "image": "Cards/base/zot/zot-the-wizard-back.png"
+      },
+      "faces": [
+        {
+          "name": "The Wench thinks you should stop playing with the drinks.",
+          "img": "Cards/base/zot/the-wench-thinks-you-should-stop-playing-with.png",
+          "text": "<div class=\"cardtext\">Negate a Sometimes Card that changes the effects of a Drink. (This includes cards that Negate, Ignore or split Drinks, pass Drinks to other players, or alter any of a Drink's effects.)</div><div class=\"cardtext\">This card can only be affected by <b>I don't think so!</b></div>"
+        }
+      ],
+      "face": 0,
+      "drawn": false,
+      "width": 2,
+      "height": 3,
+      "rotation": 0,
+      "flags": {}
+    },
+    {
+      "name": "Not now, I'm meditating.",
+      "type": "base",
+      "description": "Not now, I'm meditating.",
+      "data": {
+        "type": "Sometimes"
+      },
+      "suit": "",
+      "value": 0,
+      "back": {
+        "name": "Zot the Wizard",
+        "text": "Zot the Wizard",
+        "image": "Cards/base/zot/zot-the-wizard-back.png"
+      },
+      "faces": [
+        {
+          "name": "Not now, I'm meditating.",
+          "img": "Cards/base/zot/not-now-im-meditating.png",
+          "text": "<div class=\"cardtext\">You may play this card when you must ante. Instead of anteing, you leave the Round of Gambling.</div><div class=\"cardtext\">-OR-</div><div class=\"cardtext\">Ignore a Drink. (Reveal the Drink first!)</div>"
+        }
+      ],
+      "face": 0,
+      "drawn": false,
+      "width": 2,
+      "height": 3,
+      "rotation": 0,
+      "flags": {}
+    },
+    {
+      "name": "Not now, I'm meditating.",
+      "type": "base",
+      "description": "Not now, I'm meditating.",
+      "data": {
+        "type": "Sometimes"
+      },
+      "suit": "",
+      "value": 0,
+      "back": {
+        "name": "Zot the Wizard",
+        "text": "Zot the Wizard",
+        "image": "Cards/base/zot/zot-the-wizard-back.png"
+      },
+      "faces": [
+        {
+          "name": "Not now, I'm meditating.",
+          "img": "Cards/base/zot/not-now-im-meditating.png",
+          "text": "<div class=\"cardtext\">You may play this card when you must ante. Instead of anteing, you leave the Round of Gambling.</div><div class=\"cardtext\">-OR-</div><div class=\"cardtext\">Ignore a Drink. (Reveal the Drink first!)</div>"
+        }
+      ],
+      "face": 0,
+      "drawn": false,
+      "width": 2,
+      "height": 3,
+      "rotation": 0,
+      "flags": {}
+    },
+    {
+      "name": "I don't think so!",
+      "type": "base",
+      "description": "I don't think so!",
+      "data": {
+        "type": "Sometimes"
+      },
+      "suit": "",
+      "value": 0,
+      "back": {
+        "name": "Zot the Wizard",
+        "text": "Zot the Wizard",
+        "image": "Cards/base/zot/zot-the-wizard-back.png"
+      },
+      "faces": [
+        {
+          "name": "I don't think so!",
+          "img": "Cards/base/zot/i-dont-think-so.png",
+          "text": "<div class=\"cardtext\">Negate a Sometimes Card.</div><div class=\"cardtext\">This card can only be affected by another <b>I don't think so!</b></div>"
+        }
+      ],
+      "face": 0,
+      "drawn": false,
+      "width": 2,
+      "height": 3,
+      "rotation": 0,
+      "flags": {}
+    },
+    {
+      "name": "Tip the Wench.",
+      "type": "base",
+      "description": "Tip the Wench.",
+      "data": {
+        "type": "Anytime"
+      },
+      "suit": "",
+      "value": 0,
+      "back": {
+        "name": "Zot the Wizard",
+        "text": "Zot the Wizard",
+        "image": "Cards/base/zot/zot-the-wizard-back.png"
+      },
+      "faces": [
+        {
+          "name": "Tip the Wench.",
+          "img": "Cards/base/zot/tip-the-wench.png",
+          "text": "<div class=\"cardtext\">Pick a player. They pay 1 Gold to the Inn.</div>"
+        }
+      ],
+      "face": 0,
+      "drawn": false,
+      "width": 2,
+      "height": 3,
+      "rotation": 0,
+      "flags": {}
+    },
+    {
+      "name": "Pooky thinks you look thirsty...",
+      "type": "base",
+      "description": "Pooky thinks you look thirsty...",
+      "data": {
+        "type": "Anytime"
+      },
+      "suit": "",
+      "value": 0,
+      "back": {
+        "name": "Zot the Wizard",
+        "text": "Zot the Wizard",
+        "image": "Cards/base/zot/zot-the-wizard-back.png"
+      },
+      "faces": [
+        {
+          "name": "Pooky thinks you look thirsty...",
+          "img": "Cards/base/zot/pooky-thinks-you-look-thirsty.png",
+          "text": "<div class=\"cardtext\">Pick another player. They drink the top Drink on their Drink Me! Pile.</div>"
+        }
+      ],
+      "face": 0,
+      "drawn": false,
+      "width": 2,
+      "height": 3,
+      "rotation": 0,
+      "flags": {}
+    },
+    {
+      "name": "Transmute peanuts to gold",
+      "type": "base",
+      "description": "Transmute peanuts to gold",
+      "data": {
+        "type": "Sometimes"
+      },
+      "suit": "",
+      "value": 0,
+      "back": {
+        "name": "Zot the Wizard",
+        "text": "Zot the Wizard",
+        "image": "Cards/base/zot/zot-the-wizard-back.png"
+      },
+      "faces": [
+        {
+          "name": "Transmute peanuts to gold",
+          "img": "Cards/base/zot/transmute-peanuts-to-gold.png",
+          "text": "<div class=\"cardtext\">You may play this card when you are about to lose Gold.</div><div class=\"cardtext\">Use Gold from the Inn, rather than from your own Stash.</div>"
+        }
+      ],
+      "face": 0,
+      "drawn": false,
+      "width": 2,
+      "height": 3,
+      "rotation": 0,
+      "flags": {}
+    },
+    {
+      "name": "Nothing up my sleeve! Presto! What's that behind your ear?",
+      "type": "base",
+      "description": "Nothing up my sleeve! Presto! What's that behind your ear?",
+      "data": {
+        "type": "Anytime"
+      },
+      "suit": "",
+      "value": 0,
+      "back": {
+        "name": "Zot the Wizard",
+        "text": "Zot the Wizard",
+        "image": "Cards/base/zot/zot-the-wizard-back.png"
+      },
+      "faces": [
+        {
+          "name": "Nothing up my sleeve! Presto! What's that behind your ear?",
+          "img": "Cards/base/zot/nothing-up-my-sleeve-presto-whats-that.png",
+          "text": "<div class=\"cardtext\">Pick a player. They pay you 1 Gold.</div>"
+        }
+      ],
+      "face": 0,
+      "drawn": false,
+      "width": 2,
+      "height": 3,
+      "rotation": 0,
+      "flags": {}
+    },
+    {
+      "name": "This time, we'll use my dice.",
+      "type": "base",
+      "description": "This time, we'll use my dice.",
+      "data": {
+        "type": "Cheating"
+      },
+      "suit": "",
+      "value": 0,
+      "back": {
+        "name": "Zot the Wizard",
+        "text": "Zot the Wizard",
+        "image": "Cards/base/zot/zot-the-wizard-back.png"
+      },
+      "faces": [
+        {
+          "name": "This time, we'll use my dice.",
+          "img": "Cards/base/zot/this-time-well-use-my-dice.png",
+          "text": "<div class=\"cardtext\">Take control of a Round of Gambling.</div>"
+        }
+      ],
+      "face": 0,
+      "drawn": false,
+      "width": 2,
+      "height": 3,
+      "rotation": 0,
+      "flags": {}
+    },
+    {
+      "name": "Now you see me... Now you don't!",
+      "type": "base",
+      "description": "Now you see me... Now you don't!",
+      "data": {
+        "type": "Sometimes"
+      },
+      "suit": "",
+      "value": 0,
+      "back": {
+        "name": "Zot the Wizard",
+        "text": "Zot the Wizard",
+        "image": "Cards/base/zot/zot-the-wizard-back.png"
+      },
+      "faces": [
+        {
+          "name": "Now you see me... Now you don't!",
+          "img": "Cards/base/zot/now-you-see-me-now-you-dont.png",
+          "text": "<div class=\"cardtext\">Ignore an Action or Sometimes Card that affects your Fortitude.</div>"
+        }
+      ],
+      "face": 0,
+      "drawn": false,
+      "width": 2,
+      "height": 3,
+      "rotation": 0,
+      "flags": {}
+    },
+    {
+      "name": "No, Pooky! That's my friend!",
+      "type": "base",
+      "description": "No, Pooky! That's my friend!",
+      "data": {
+        "type": "Sometimes"
+      },
+      "suit": "",
+      "value": 0,
+      "back": {
+        "name": "Zot the Wizard",
+        "text": "Zot the Wizard",
+        "image": "Cards/base/zot/zot-the-wizard-back.png"
+      },
+      "faces": [
+        {
+          "name": "No, Pooky! That's my friend!",
+          "img": "Cards/base/zot/no-pooky-thats-my-friend.png",
+           "text": "You may play this card immediately after you lose Fortitude from a card played by another player. You may not play this card if you reduced that Fortitude loss.</div><div class=\"cardtext\">That player loses 2 Fortitude."
+        }
+      ],
+      "face": 0,
+      "drawn": false,
+      "width": 2,
+      "height": 3,
+      "rotation": 0,
+      "flags": {}
+    },
+    {
+      "name": "Down Pooky!",
+      "type": "base",
+      "description": "Down Pooky!",
+      "data": {
+        "type": "Action"
+      },
+      "suit": "",
+      "value": 0,
+      "back": {
+        "name": "Zot the Wizard",
+        "text": "Zot the Wizard",
+        "image": "Cards/base/zot/zot-the-wizard-back.png"
+      },
+      "faces": [
+        {
+          "name": "Down Pooky!",
+          "img": "Cards/base/zot/down-pooky.png",
+          "text": "<div class=\"cardtext\">Pick another player. They lose 1 Fortitude.</div>"
+        }
+      ],
+      "face": 0,
+      "drawn": false,
+      "width": 2,
+      "height": 3,
+      "rotation": 0,
+      "flags": {}
+    },
+    {
+      "name": "Oh no! Not again! Pooky's on a drunken rampage!",
+      "type": "base",
+      "description": "Oh no! Not again! Pooky's on a drunken rampage!",
+      "data": {
+        "type": "Action"
+      },
+      "suit": "",
+      "value": 0,
+      "back": {
+        "name": "Zot the Wizard",
+        "text": "Zot the Wizard",
+        "image": "Cards/base/zot/zot-the-wizard-back.png"
+      },
+      "faces": [
+        {
+          "name": "Oh no! Not again! Pooky's on a drunken rampage!",
+          "img": "Cards/base/zot/oh-no-not-again-pookys-on-a-drunken-rampage.png",
+          "text": "<div class=\"cardtext\">Each other player loses 1 Fortitude.</div>"
+        }
+      ],
+      "face": 0,
+      "drawn": false,
+      "width": 2,
+      "height": 3,
+      "rotation": 0,
+      "flags": {}
+    },
+    {
+      "name": "Oh no! Not again! Pooky's on a drunken rampage!",
+      "type": "base",
+      "description": "Oh no! Not again! Pooky's on a drunken rampage!",
+      "data": {
+        "type": "Action"
+      },
+      "suit": "",
+      "value": 0,
+      "back": {
+        "name": "Zot the Wizard",
+        "text": "Zot the Wizard",
+        "image": "Cards/base/zot/zot-the-wizard-back.png"
+      },
+      "faces": [
+        {
+          "name": "Oh no! Not again! Pooky's on a drunken rampage!",
+          "img": "Cards/base/zot/oh-no-not-again-pookys-on-a-drunken-rampage.png",
+          "text": "<div class=\"cardtext\">Each other player loses 1 Fortitude.</div>"
+        }
+      ],
+      "face": 0,
+      "drawn": false,
+      "width": 2,
+      "height": 3,
+      "rotation": 0,
+      "flags": {}
+    },
+    {
+      "name": "How many times have I told you? Keep your hands off my wand!",
+      "type": "base",
+      "description": "How many times have I told you? Keep your hands off my wand!",
+      "data": {
+        "type": "Action"
+      },
+      "suit": "",
+      "value": 0,
+      "back": {
+        "name": "Zot the Wizard",
+        "text": "Zot the Wizard",
+        "image": "Cards/base/zot/zot-the-wizard-back.png"
+      },
+      "faces": [
+        {
+          "name": "How many times have I told you? Keep your hands off my wand!",
+          "img": "Cards/base/zot/how-many-times-have-i-told-you-keep-your-hands.png",
+          "text": "<div class=\"cardtext\">Pick another player. They lose 2 Fortitude.</div>"
+        }
+      ],
+      "face": 0,
+      "drawn": false,
+      "width": 2,
+      "height": 3,
+      "rotation": 0,
+      "flags": {}
+    },
+    {
+      "name": "How many times have I told you? Keep your hands off my wand!",
+      "type": "base",
+      "description": "How many times have I told you? Keep your hands off my wand!",
+      "data": {
+        "type": "Action"
+      },
+      "suit": "",
+      "value": 0,
+      "back": {
+        "name": "Zot the Wizard",
+        "text": "Zot the Wizard",
+        "image": "Cards/base/zot/zot-the-wizard-back.png"
+      },
+      "faces": [
+        {
+          "name": "How many times have I told you? Keep your hands off my wand!",
+          "img": "Cards/base/zot/how-many-times-have-i-told-you-keep-your-hands.png",
+          "text": "<div class=\"cardtext\">Pick another player. They lose 2 Fortitude.</div>"
+        }
+      ],
+      "face": 0,
+      "drawn": false,
+      "width": 2,
+      "height": 3,
+      "rotation": 0,
+      "flags": {}
+    },
+    {
+      "name": "Watch Out! Don't step on Pooky!",
+      "type": "base",
+      "description": "Watch Out! Don't step on Pooky!",
+      "data": {
+        "type": "Action"
+      },
+      "suit": "",
+      "value": 0,
+      "back": {
+        "name": "Zot the Wizard",
+        "text": "Zot the Wizard",
+        "image": "Cards/base/zot/zot-the-wizard-back.png"
+      },
+      "faces": [
+        {
+          "name": "Watch Out! Don't step on Pooky!",
+          "img": "Cards/base/zot/watch-out-dont-step-on-pooky.png",
+          "text": "<div class=\"cardtext\">Pick another player. They lose 2 Fortitude.</div>"
+        }
+      ],
+      "face": 0,
+      "drawn": false,
+      "width": 2,
+      "height": 3,
+      "rotation": 0,
+      "flags": {}
+    },
+    {
+      "name": "Behold my impressive power as I... pull this rabbit out of my hat!",
+      "type": "base",
+      "description": "Behold my impressive power as I... pull this rabbit out of my hat!",
+      "data": {
+        "type": "Action"
+      },
+      "suit": "",
+      "value": 0,
+      "back": {
+        "name": "Zot the Wizard",
+        "text": "Zot the Wizard",
+        "image": "Cards/base/zot/zot-the-wizard-back.png"
+      },
+      "faces": [
+        {
+          "name": "Behold my impressive power as I... pull this rabbit out of my hat!",
+          "img": "Cards/base/zot/behold-my-impressive-power-as-i-pull-this.png",
+          "text": "<div class=\"cardtext\">(You impress the others with a magic trick!</div><div class=\"cardtext\">Each other player pays you 1 Gold.</div>"
+        }
+      ],
+      "face": 0,
+      "drawn": false,
+      "width": 2,
+      "height": 3,
+      "rotation": 0,
+      "flags": {}
+    },
+    {
+      "name": "The stars say, \"No!\"",
+      "type": "base",
+      "description": "The stars say, \"No!\"",
+      "data": {
+        "type": "Sometimes"
+      },
+      "suit": "",
+      "value": 0,
+      "back": {
+        "name": "Zot the Wizard",
+        "text": "Zot the Wizard",
+        "image": "Cards/base/zot/zot-the-wizard-back.png"
+      },
+      "faces": [
+        {
+          "name": "The stars say, \"No!\"",
+          "img": "Cards/base/zot/the-stars-say-no.png",
+          "text": "<div class=\"cardtext\">Ignore an Action, Sometimes or Anytime Card that affects your Fortitude, Alcohol Content or Gold.</div><div class=\"cardtext\">You may not use this card to Ignore a Round of Gambling.</div>"
+        }
+      ],
+      "face": 0,
+      "drawn": false,
+      "width": 2,
+      "height": 3,
+      "rotation": 0,
+      "flags": {}
+    }
+  ]
+}
